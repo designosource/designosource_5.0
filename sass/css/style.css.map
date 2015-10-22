@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACJ,SAAS,EAAE,KAAK;EAChB,gBAAgB,ECFP,OAAO;EDGhB,WAAW,ECAH,oBAAoB",
-"sources": ["../scss/_base.scss","../scss/mixins/_mixins.scss"],
+"mappings": "AAAA,IAAK;EACJ,SAAS,EAAE,KAAK;EAChB,gBAAgB,ECFP,OAAO;EDGhB,WAAW,ECAH,oBAAoB;;ACF5B,mBAAQ;EACP,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,GAAG;EACrB,uBAAG;IACF,OAAO,EAAE,KAAK;IACd,WAAW,EAAE,IAAI;IACjB,YAAY,EAAE,IAAI;IAClB,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK",
+"sources": ["../scss/_base.scss","../scss/mixins/_mixins.scss","../scss/modules/_animations.scss"],
 "names": [],
 "file": "style.css"
 }
