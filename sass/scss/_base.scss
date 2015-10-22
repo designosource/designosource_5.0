@@ -1,6 +1,57 @@
 body {
 	font-size: 62.5%;
-	background-color: $color1;
 	font-family : $font3;
-}
 
+	nav {
+		background-color: $color1;
+		height: 50px;
+		width: 100%;
+
+		#logo {
+			width: 30px;
+			height: 30px;
+			-webkit-background-size: 30px 30px;
+			background-size: 30px 30px;
+			background-position: center;
+			background-image: url('../../images/logo_ei.svg');
+			text-indent: -9999px;
+			display: block;
+			padding: 10px 0px 10px 30px;
+			background-repeat: no-repeat;
+		}
+
+		.navigation {
+			width: 35%;
+			float: right;
+			margin-top: -30px;
+			margin-right: 30px;
+
+			a {
+				text-decoration: none;
+				color: white;
+				font-size: 1rem;
+				text-transform: uppercase;
+				display: block;
+				float: left;
+				width: 25%;
+				text-align: center;
+				font-family: $font2;
+				position: relative;
+				padding-bottom: 4px;
+			}	
+
+			a:hover:after {
+				width: 100%;
+			}
+
+			a:after {
+				content: "";
+				display: block;
+				position: absolute;
+				height: 10px;
+				border-bottom: 5px solid white;
+			}
+
+		}
+	}
+}

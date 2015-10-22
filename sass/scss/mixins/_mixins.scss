@@ -3,3 +3,16 @@ $font1 : Didot-Italic;
 $font2 : AlteDIN1451Mittelschrift-Regular;
 $font3 : source_sans_prolight;
 $font4 : source_sans_proregular;
+
+%clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+%center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
