@@ -3,21 +3,24 @@ body {
   font-family: source_sans_prolight; }
   body nav {
     background-color: #081925;
-    height: 70px;
+    height: 50px;
     width: 100%; }
     body nav #logo {
-      width: 50px;
-      height: 50px;
-      -webkit-background-size: 50px 50px;
-      background-size: 50px 50px;
+      width: 30px;
+      height: 30px;
+      -webkit-background-size: 30px 30px;
+      background-size: 30px 30px;
       background-position: center;
       background-image: url("../../images/logo_ei.svg");
       text-indent: -9999px;
-      display: block; }
+      display: block;
+      padding: 10px 0px 10px 30px;
+      background-repeat: no-repeat; }
     body nav .navigation {
       width: 35%;
       float: right;
-      margin-top: -20px; }
+      margin-top: -30px;
+      margin-right: 30px; }
       body nav .navigation a {
         text-decoration: none;
         color: white;
@@ -26,10 +29,17 @@ body {
         display: block;
         float: left;
         width: 25%;
-        background-color: red;
         text-align: center;
-        font-family: source_sans_prolight; }
-      body nav .navigation a:hover {
-        text-decoration: underline; }
+        font-family: AlteDIN1451Mittelschrift-Regular;
+        position: relative;
+        padding-bottom: 4px; }
+      body nav .navigation a:hover:after {
+        width: 100%; }
+      body nav .navigation a:after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 10px;
+        border-bottom: 5px solid white; }
 
 /*# sourceMappingURL=style.css.map */
