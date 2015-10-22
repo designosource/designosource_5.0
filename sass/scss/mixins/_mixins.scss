@@ -5,11 +5,9 @@ $font3 : source_sans_prolight;
 $font4 : source_sans_proregular;
 
 %clearfix {
-  &:after {
     content: "";
     display: table;
     clear: both;
-  }
 }
 
 %center {

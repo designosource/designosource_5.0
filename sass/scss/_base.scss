@@ -1,39 +1,45 @@
 body {
 	font-size: 62.5%;
-	// background-color: $color1;
 	font-family : $font3;
 
-
 	nav {
-
-		width: 100%;
 		background-color: $color1;
-		height: 150px;
-		display: block;
+		height: 70px;
+		width: 100%;
 
-		ul {
-			width: 150px;
-			@extend %center;
+		#logo {
+			width: 50px;
+			height: 50px;
+			-webkit-background-size: 50px 50px;
+			background-size: 50px 50px;
+			background-position: center;
+			background-image: url('../../images/logo_ei.svg');
+			text-indent: -9999px;
+			display: block;
+		}
+
+		.navigation {
+			width: 35%;
+			float: right;
+			margin-top: -20px;
 
 			a {
-				width: 50px;
-				height: 50px;
-				-webkit-background-size: 50px 50px;
-				background-size: 50px 50px;
-				background-position: center;
-				background-image: url('../../images/logo_ei.svg');
-				text-indent: -9999px;
-				display: block;
-			}
-
-			li {
+				text-decoration: none;
 				color: white;
 				font-size: 1rem;
-				width: 100px;
-				display: block;
-				font-family: $font2;
 				text-transform: uppercase;
+				display: block;
+				float: left;
+				width: 25%;
+				background-color: red;
+				text-align: center;
+				font-family: $font3;
+			}	
+
+			a:hover {
+				text-decoration: underline;
 			}
+
 		}
 	}
 }
