@@ -13,5 +13,18 @@ body {
     margin-right: auto;
     width: 400px;
     height: 600px; }
+  .container .landing .container-stukken {
+    width: 400px;
+    height: 515px;
+    margin: 0 auto;
+    background-image: url(../../images/logo_ei.svg); }
+    .container .landing .container-stukken .stuk1 {
+      background-image: url(../../images/stukken_ei/stuk1.svg);
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 78px;
+      position: relative;
+      top: 10px;
+      left: 10px; }
 
 /*# sourceMappingURL=style.css.map */
