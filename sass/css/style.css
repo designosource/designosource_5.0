@@ -1,31 +1,57 @@
 body {
   font-size: 62.5%;
   background-color: #081925;
-  font-family: source_sans_prolight; 
-}
+  font-family: source_sans_prolight; }
 
 .container .landing {
   height: 100vh;
-  width: 100%;
-  background-color: red; }
-  .container .landing img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 600px; }
+  width: 100%; }
   .container .landing .container-stukken {
-    width: 400px;
-    height: 515px;
+    width: 250px;
+    height: 322px;
     margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
     background-image: url(../../images/logo_ei.svg); }
     .container .landing .container-stukken .stuk1 {
       background-image: url(../../images/stukken_ei/stuk1.svg);
       background-repeat: no-repeat;
       width: 100px;
       height: 78px;
-      position: relative;
+      position: absolute;
       top: 10px;
       left: 10px; }
+    .container .landing .container-stukken .stuk2 {
+      background-image: url(../../images/stukken_ei/stuk2.svg);
+      background-repeat: no-repeat;
+      width: 98px;
+      height: 130px;
+      position: absolute;
+      top: 80px;
+      left: 4px; }
+    .container .landing .container-stukken .stuk3 {
+      background-image: url(../../images/stukken_ei/stuk3.svg);
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 74px;
+      position: absolute;
+      top: 79px;
+      left: 28px; }
+    .container .landing .container-stukken .stuk4 {
+      background-image: url(../../images/stukken_ei/stuk4.svg);
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 78px;
+      position: absolute;
+      top: 10px;
+      left: 10px; }
+    .container .landing .container-stukken .stuk5 {
+      background-image: url(../../images/stukken_ei/stuk5.svg);
+      background-repeat: no-repeat;
+      width: 119px;
+      height: 147px;
+      position: absolute;
+      top: 5px;
+      left: 100px; }
 
 /*# sourceMappingURL=style.css.map */
