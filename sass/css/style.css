@@ -1,7 +1,64 @@
+.first_quote p {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative; }
+
 body {
   font-size: 62.5%;
   background-color: #081925;
   font-family: source_sans_prolight; }
+  body nav {
+    background-color: #081925;
+    height: 50px;
+    width: 100%; }
+    body nav #logo {
+      width: 30px;
+      height: 30px;
+      -webkit-background-size: 30px 30px;
+      background-size: 30px 30px;
+      background-position: center;
+      background-image: url("../../images/logo_ei.svg");
+      text-indent: -9999px;
+      display: block;
+      padding: 10px 0px 10px 30px;
+      background-repeat: no-repeat; }
+    body nav .navigation {
+      width: 35%;
+      float: right;
+      margin-top: -30px;
+      margin-right: 30px; }
+      body nav .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        text-transform: uppercase;
+        display: block;
+        float: left;
+        width: 25%;
+        text-align: center;
+        font-family: AlteDIN1451Mittelschrift-Regular;
+        position: relative;
+        padding-bottom: 4px; }
+      body nav .navigation a:hover:after {
+        width: 100%; }
+      body nav .navigation a:after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 10px;
+        border-bottom: 5px solid white; }
+  body h2 {
+    font-family: AlteDIN1451Mittelschrift-Regular;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-left: 40px; }
+  body .line {
+    width: 20%;
+    margin-left: 40px;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0px 20px 40px; }
 
 .container .landing {
   height: 100vh;
@@ -54,4 +111,52 @@ body {
       top: 5px;
       left: 100px; }
 
+header {
+  width: 100%;
+  height: 450px;
+  padding: 20px 0px; }
+  header h1 {
+    font-family: Didot-Italic;
+    font-size: 2rem;
+    width: 30%;
+    padding-left: 50px;
+    float: left; }
+  header .logo_thomasmore {
+    float: left;
+    display: block;
+    width: 50%; }
+  header p {
+    clear: both;
+    font-family: source_sans_prolight;
+    padding: 40px;
+    font-size: 1rem; }
+
+.first_quote {
+  width: 100%;
+  height: 120px;
+  background-color: #081925;
+  text-align: center;
+  padding-top: 50px; }
+  .first_quote p {
+    color: white;
+    width: 80%;
+    font-size: 1.9rem;
+    font-family: AlteDIN1451Mittelschrift-Regular; }
+    .first_quote p span {
+      font-family: Didot-Italic;
+      font-size: 1.5rem; }
+
+.watwedoen {
+  width: 100%;
+  height: 320px;
+  padding-top: 50px; }
+  .watwedoen h3 {
+    font-family: Didot-Italic;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 40px; }
+  .watwedoen-onderzoek {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    padding: 10px 40px 0px 40px; }
 /*# sourceMappingURL=style.css.map */
