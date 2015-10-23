@@ -6,7 +6,6 @@
 
 body {
   font-size: 62.5%;
-  background-color: #081925;
   font-family: source_sans_prolight; }
   body nav {
     background-color: #081925;
@@ -62,22 +61,23 @@ body {
 
 .container .landing {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  background-color: #081925; }
   .container .landing .container-stukken {
     width: 250px;
     height: 322px;
     margin: 0 auto;
-    margin-top: 200px;
     position: relative;
-    background-image: url(../../images/logo_ei.svg); }
+    /*background-image: url(../../images/logo_ei.svg);
+    background-repeat: no-repeat;*/ }
     .container .landing .container-stukken .stuk1 {
       background-image: url(../../images/stukken_ei/stuk1.svg);
       background-repeat: no-repeat;
-      width: 100px;
-      height: 78px;
+      width: 93px;
+      height: 72px;
       position: absolute;
-      top: 10px;
-      left: 10px; }
+      top: 7px;
+      left: 29px; }
     .container .landing .container-stukken .stuk2 {
       background-image: url(../../images/stukken_ei/stuk2.svg);
       background-repeat: no-repeat;
@@ -98,10 +98,10 @@ body {
       background-image: url(../../images/stukken_ei/stuk4.svg);
       background-repeat: no-repeat;
       width: 100px;
-      height: 78px;
+      height: 110px;
       position: absolute;
-      top: 10px;
-      left: 10px; }
+      top: 7px;
+      left: 30px; }
     .container .landing .container-stukken .stuk5 {
       background-image: url(../../images/stukken_ei/stuk5.svg);
       background-repeat: no-repeat;
@@ -110,6 +110,78 @@ body {
       position: absolute;
       top: 5px;
       left: 100px; }
+    .container .landing .container-stukken .stuk6 {
+      background-image: url(../../images/stukken_ei/stuk6.svg);
+      background-repeat: no-repeat;
+      width: 111px;
+      height: 119px;
+      position: absolute;
+      top: 39px;
+      left: 133px; }
+    .container .landing .container-stukken .stuk7 {
+      background-image: url(../../images/stukken_ei/stuk7.svg);
+      background-repeat: no-repeat;
+      width: 95px;
+      height: 134px;
+      position: absolute;
+      top: 152px;
+      left: 6px; }
+    .container .landing .container-stukken .stuk8 {
+      background-image: url(../../images/stukken_ei/stuk8.svg);
+      background-repeat: no-repeat;
+      width: 109px;
+      height: 137px;
+      position: absolute;
+      top: 151px;
+      left: 47px; }
+    .container .landing .container-stukken .stuk9 {
+      background-image: url(../../images/stukken_ei/stuk9.svg);
+      background-repeat: no-repeat;
+      width: 59px;
+      height: 157px;
+      position: absolute;
+      top: 111px;
+      left: 100px; }
+    .container .landing .container-stukken .stuk10 {
+      background-image: url(../../images/stukken_ei/stuk10.svg);
+      background-repeat: no-repeat;
+      width: 108px;
+      height: 104px;
+      position: absolute;
+      top: 111px;
+      left: 135px; }
+    .container .landing .container-stukken .stuk11 {
+      background-image: url(../../images/stukken_ei/stuk11.svg);
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 159px;
+      position: absolute;
+      top: 110px;
+      left: 133px; }
+    .container .landing .container-stukken .stuk12 {
+      background-image: url(../../images/stukken_ei/stuk12.svg);
+      background-repeat: no-repeat;
+      width: 116px;
+      height: 54px;
+      position: absolute;
+      top: 267px;
+      left: 49px; }
+    .container .landing .container-stukken .stuk13 {
+      background-image: url(../../images/stukken_ei/stuk13.svg);
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 98px;
+      position: absolute;
+      top: 213px;
+      left: 153px; }
+    .container .landing .container-stukken .stuk14 {
+      background-image: url(../../images/stukken_ei/stuk14.svg);
+      background-repeat: no-repeat;
+      width: 105px;
+      height: 159px;
+      position: absolute;
+      top: 151px;
+      left: 164px; }
 
 header {
   width: 100%;
@@ -159,4 +231,5 @@ header {
     font-size: 1rem;
     padding-bottom: 10px;
     padding: 10px 40px 0px 40px; }
+
 /*# sourceMappingURL=style.css.map */
