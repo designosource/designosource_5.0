@@ -232,4 +232,45 @@ header {
     padding-bottom: 10px;
     padding: 10px 40px 0px 40px; }
 
+.watwedoen-werkwijze-werklijn {
+  margin: auto;
+  margin-bottom: -6px;
+  height: 10px;
+  width: 80%;
+  border-bottom: 1px black solid; }
+
+.watwedoen-werkwijze {
+  margin: auto;
+  width: 80%;
+  text-align: justify; }
+
+.watwedoen-werkwijze div {
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  transition: all 0.3s ease; }
+
+.bol:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: black; }
+
+.binbol {
+  float: none;
+  background-color: black; }
+
+.binbol:hover {
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  opacity: 0.2; }
+
+.watwedoen-werkwijze:after {
+  content: '';
+  width: 100%;
+  /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
