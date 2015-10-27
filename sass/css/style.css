@@ -232,4 +232,139 @@ header {
     padding-bottom: 10px;
     padding: 10px 40px 0px 40px; }
 
-/*# sourceMappingURL=style.css.map */
+footer {
+  /*mobile*/
+  background-color: #0c2334;
+  padding: 50px 40px 0px 40px;
+  color: white;
+  font-size: 1rem;
+  background-image: url("../../images/contactform_bg.svg"), none;
+  repeat: none;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  /*placeholder styling*/ }
+  footer h2 {
+    padding-left: 0px; }
+  footer .line {
+    margin-left: 0px;
+    background-color: white;
+    margin-bottom: 50px; }
+  footer #radios {
+    margin-bottom: 50px; }
+    footer #radios .radiotxt {
+      padding-left: 20px; }
+    footer #radios input {
+      margin-bottom: 15px; }
+  footer textarea {
+    width: 100%;
+    border: 0;
+    color: black;
+    border: none;
+    overflow: auto;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  footer #emailadres {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    margin-top: -3px;
+    border-top: 1px solid black;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  footer ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: black;
+    font-style: italic; }
+  footer :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: black;
+    opacity: 1;
+    font-style: italic; }
+  footer ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: black;
+    opacity: 1;
+    font-style: italic; }
+  footer :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+    font-style: italic; }
+  footer #btnbericht {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: white;
+    margin-top: 25px;
+    text-transform: uppercase; }
+  footer #socialMedia {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    height: 50px;
+    width: 180px;
+    margin-top: 60px;
+    margin-bottom: 40px; }
+  footer #socialMedia li {
+    border-radius: 50%;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+    background: #262626;
+    border: 1px solid #1e1e1e; }
+  footer #socialMedia li#linkedIn {
+    margin-right: 0px; }
+  footer #socialMedia li a {
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-indent: -9999px;
+    background-repeat: no-repeat; }
+  footer #socialMedia li a:hover {
+    background-color: #eb4328;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
+  footer ul#socialMedia li#twitter a {
+    background-image: url("../../images/twitter.svg"), none;
+    background-color: #3a589c; }
+  footer ul#socialMedia li#facebook a {
+    background-image: url("../../images/facebook.svg"), none;
+    background-color: #20a8e2; }
+  footer ul#socialMedia li#linkedIn a {
+    background-image: url("../../images/linkedin.svg"), none;
+    background-color: #0071b3; }
+  footer #visitekaartje p {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  footer #visitekaartje #company {
+    text-align: center; }
+  footer #visitekaartje #address {
+    padding-left: 65px; }
+  footer #visitekaartje #projectby p {
+    /*padding-left: 65px;*/
+    text-align: center; }
+  footer #visitekaartje #projectby #tmlogo {
+    text-indent: -9999px;
+    display: block;
+    background-image: url("../../images/TM_logo.png");
+    width: 128.25px;
+    height: 50px;
+    background-size: 128.25px 50px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-bottom: 20px; }
+  footer #visitekaartje #projectby #tmlink {
+    display: none; }

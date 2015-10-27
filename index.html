@@ -92,16 +92,21 @@
 		<footer>
 
 			<h2>Contacteer ons</h2>
+			<div class="line"></div>
 
 			<form action="post">
 
-				<input type="radio" name="subject" value="contact">Ik wil contact opnemen voor een eventuele samenwerking<br>
-				<input type="radio" name="subject" value="workflow">Ik wil de workflow van dichtbij komen bekijken. <br>	
-				<input type="radio" name="subject" value="informatie">Ik zou graag informatie vragen over mijn project.<br>	
-
-				<textarea name="bericht" id="bericht" cols="30" rows="10" value="Schrijf ons een berichtje"></textarea>
-				<input type="text" name="emailadres" id="emailadres" value="Emailadres">
-				<input type="submit" name="btnbericht" id="btnbericht" value="verzenden">
+				<div id="radios">
+					<input type="radio" name="subject" value="contact"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
+					<input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>	
+					<input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>	
+				</div>
+				
+				<div id="writingarea">
+					<textarea name="bericht" id="bericht" cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea>
+					<input type="text" name="emailadres" id="emailadres" placeholder="Emailadres">
+					<input type="submit" name="btnbericht" id="btnbericht" value="verzenden">
+				</div>
 			</form>
 
 			<ul id="socialMedia">
@@ -121,15 +126,15 @@
 					<p>DESIGNOSOURCE</p>
 				</li>
 				<li id="address">
-					<p>Lange Ridderstraat 44
-						2800 Mechelen
-						België
+					<p>Lange Ridderstraat 44<br>	
+						2800 Mechelen<br>
+						België<br>
 						Tel. +31 25 36 92 20</p>
 				</li>	
 				<li id="projectby">
 					<p>een project van</p>
-					<a href="">thomasmorelogo</a>
-					<a href="">www.thomasmore.be</a>
+					<a href="" id="tmlogo">thomasmorelogo</a>
+					<a href="" id="tmlink">www.thomasmore.be</a>
 				</li>	
 			</ul>
 
