@@ -245,16 +245,18 @@ header {
     padding-bottom: 10px;
     padding: 10px 40px 0px 40px; }
 
+/*PROCESLIJN*/
 .watwedoen-werkwijze-werklijn {
   margin: auto;
   margin-bottom: -6px;
+  margin-top: 40px;
   height: 10px;
-  width: 80%;
+  width: 70%;
   border-bottom: 1px black solid; }
 
 .watwedoen-werkwijze {
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: justify; }
 
 .watwedoen-werkwijze div {
@@ -286,7 +288,41 @@ header {
   /* Ensures there are at least 2 lines of text, so justification works */
   display: inline-block; }
 
-<<<<<<< HEAD
+.ticked {
+  width: 20px;
+  height: 20px; }
+
+/*PROCESUITLEG*/
+.watwedoen > div > div > p {
+  font-family: source_sans_prolight;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  padding: 0px 40px 0 80px;
+  min-height: 60px;
+  line-height: 20px; }
+
+.watwedoen {
+  margin-bottom: 40px;
+  float: left;
+  height: auto; }
+
+.watwedoen > div > div > h3 {
+  line-height: 34px; }
+
+.watwedoen > div > div > h3 > span {
+  text-align: center;
+  font-family: AlteDIN1451Mittelschrift-Regular;
+  font-size: 22px;
+  background-color: black;
+  float: left;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  border-radius: 50%;
+  margin-right: 15px; }
+
 footer {
   /*mobile*/
   background-color: #0c2334;
@@ -423,15 +459,5 @@ footer {
     padding-bottom: 20px; }
   footer #visitekaartje #projectby #tmlink {
     display: none; }
-=======
-.ww1, .ww2, .ww3, .ww4, .ww5 {
-  font-family: source_sans_prolight;
-  font-size: 1rem;
-  padding-bottom: 10px;
-  padding: 10px 40px 0 40px; }
-
-.watwedoen {
-  margin-bottom: 200px; }
->>>>>>> work
 
 /*# sourceMappingURL=style.css.map */
