@@ -273,4 +273,13 @@ header {
   /* Ensures there are at least 2 lines of text, so justification works */
   display: inline-block; }
 
+.ww1, .ww2, .ww3, .ww4, .ww5 {
+  font-family: source_sans_prolight;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  padding: 10px 40px 0 40px; }
+
+.watwedoen {
+  margin-bottom: 200px; }
+
 /*# sourceMappingURL=style.css.map */
