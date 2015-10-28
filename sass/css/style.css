@@ -67,18 +67,23 @@ body {
     width: 250px;
     height: 322px;
     margin: 0 auto;
-    position: relative;
+    position: fixed;
     /*background-image: url(../../images/logo_ei.svg);
     background-repeat: no-repeat;*/ }
-    .container .landing .container-stukken .stuk1 {
+    .container .landing .container-stukken #stuk1final {
+      width: 93px;
+      height: 72px;
+      position: relative;
+      top: 7px;
+      left: 29px; }
+    .container .landing .container-stukken #stuk1 {
       background-image: url(../../images/stukken_ei/stuk1.svg);
       background-repeat: no-repeat;
       width: 93px;
       height: 72px;
       position: absolute;
-      top: 7px;
-      left: 29px; }
-    .container .landing .container-stukken .stuk2 {
+      transition: 0.5s ease; }
+    .container .landing .container-stukken #stuk2 {
       background-image: url(../../images/stukken_ei/stuk2.svg);
       background-repeat: no-repeat;
       width: 98px;
@@ -86,7 +91,7 @@ body {
       position: absolute;
       top: 80px;
       left: 4px; }
-    .container .landing .container-stukken .stuk3 {
+    .container .landing .container-stukken #stuk3 {
       background-image: url(../../images/stukken_ei/stuk3.svg);
       background-repeat: no-repeat;
       width: 100px;
@@ -94,15 +99,16 @@ body {
       position: absolute;
       top: 79px;
       left: 28px; }
-    .container .landing .container-stukken .stuk4 {
+    .container .landing .container-stukken #stuk4 {
       background-image: url(../../images/stukken_ei/stuk4.svg);
       background-repeat: no-repeat;
       width: 100px;
       height: 110px;
       position: absolute;
       top: 7px;
-      left: 30px; }
-    .container .landing .container-stukken .stuk5 {
+      left: 30px;
+      transition: 0.5s ease; }
+    .container .landing .container-stukken #stuk5 {
       background-image: url(../../images/stukken_ei/stuk5.svg);
       background-repeat: no-repeat;
       width: 119px;
@@ -110,7 +116,7 @@ body {
       position: absolute;
       top: 5px;
       left: 100px; }
-    .container .landing .container-stukken .stuk6 {
+    .container .landing .container-stukken #stuk6 {
       background-image: url(../../images/stukken_ei/stuk6.svg);
       background-repeat: no-repeat;
       width: 111px;
@@ -118,7 +124,7 @@ body {
       position: absolute;
       top: 39px;
       left: 133px; }
-    .container .landing .container-stukken .stuk7 {
+    .container .landing .container-stukken #stuk7 {
       background-image: url(../../images/stukken_ei/stuk7.svg);
       background-repeat: no-repeat;
       width: 95px;
@@ -126,7 +132,7 @@ body {
       position: absolute;
       top: 152px;
       left: 6px; }
-    .container .landing .container-stukken .stuk8 {
+    .container .landing .container-stukken #stuk8 {
       background-image: url(../../images/stukken_ei/stuk8.svg);
       background-repeat: no-repeat;
       width: 109px;
@@ -134,7 +140,7 @@ body {
       position: absolute;
       top: 151px;
       left: 47px; }
-    .container .landing .container-stukken .stuk9 {
+    .container .landing .container-stukken #stuk9 {
       background-image: url(../../images/stukken_ei/stuk9.svg);
       background-repeat: no-repeat;
       width: 59px;
@@ -142,7 +148,7 @@ body {
       position: absolute;
       top: 111px;
       left: 100px; }
-    .container .landing .container-stukken .stuk10 {
+    .container .landing .container-stukken #stuk10 {
       background-image: url(../../images/stukken_ei/stuk10.svg);
       background-repeat: no-repeat;
       width: 108px;
@@ -150,7 +156,7 @@ body {
       position: absolute;
       top: 111px;
       left: 135px; }
-    .container .landing .container-stukken .stuk11 {
+    .container .landing .container-stukken #stuk11 {
       background-image: url(../../images/stukken_ei/stuk11.svg);
       background-repeat: no-repeat;
       width: 80px;
@@ -158,7 +164,7 @@ body {
       position: absolute;
       top: 110px;
       left: 133px; }
-    .container .landing .container-stukken .stuk12 {
+    .container .landing .container-stukken #stuk12 {
       background-image: url(../../images/stukken_ei/stuk12.svg);
       background-repeat: no-repeat;
       width: 116px;
@@ -166,7 +172,7 @@ body {
       position: absolute;
       top: 267px;
       left: 49px; }
-    .container .landing .container-stukken .stuk13 {
+    .container .landing .container-stukken #stuk13 {
       background-image: url(../../images/stukken_ei/stuk13.svg);
       background-repeat: no-repeat;
       width: 100px;
@@ -174,7 +180,7 @@ body {
       position: absolute;
       top: 213px;
       left: 153px; }
-    .container .landing .container-stukken .stuk14 {
+    .container .landing .container-stukken #stuk14 {
       background-image: url(../../images/stukken_ei/stuk14.svg);
       background-repeat: no-repeat;
       width: 105px;
