@@ -38,11 +38,21 @@ header {
 		font-size: 1.9rem;
 		font-family: $font2;
 		@extend %center;
+		margin-top: 5px;
 
 		span {
 			font-family: $font1;
 			font-size: 1.5rem;
+			margin-top: 0;
 		}
+	}
+
+	&-line {
+		height: 3px;
+		background-color: white;
+		width: 70px;
+		margin-top: 20px;
+		@extend %center;
 	}
 }
 
