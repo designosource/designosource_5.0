@@ -4,42 +4,171 @@ window.requestAnimationFrame = window.requestAnimationFrame
  || window.msRequestAnimationFrame
  || function(f){setTimeout(f, 1000/60)};
  
+ $( document ).ready(function() {
+ 	var ei = $("#eitje");
+    console.log(ei[0].offsetWidth);
+
+    //$#("#eitje").css('left',)
+});
+ 
  
 function parallaxcube(){
  var stuk1 = document.getElementById('stuk1');
+ var stuk2 = document.getElementById('stuk2');
+ var stuk3 = document.getElementById('stuk3');
+ var stuk4 = document.getElementById('stuk4');
+ var stuk5 = document.getElementById('stuk5');
+ var stuk6 = document.getElementById('stuk6');
+ var stuk7 = document.getElementById('stuk7');
+ var stuk8 = document.getElementById('stuk8');
+ var stuk9 = document.getElementById('stuk9');
+ var stuk10 = document.getElementById('stuk10');
+ var stuk11 = document.getElementById('stuk11');
+ var stuk12 = document.getElementById('stuk12');
+ var stuk13 = document.getElementById('stuk13');
+ var stuk14 = document.getElementById('stuk14');
+    
  var scrolltop = window.scrollY; // get number of pixels document has scrolled vertically
- //console.log(scrolltop);
- /*if(scrolltop > 200){
- 	stuk4.style.top = (200*2) + 'px';
- 	stuk4.style.left = 50 + 'px';
- }
- else if(scrolltop > 100){
- 	stuk4.style.top = (100*2) + 'px';
- 	stuk4.style.left = 40 + 'px';
- }
- else if(scrolltop >= 0){
- 	stuk4.style.top = 7 + 'px';
- 	stuk4.style.left = 30 + 'px';
- }*/
  
  var stuk1top;
  var stuk1left;
+ //var stuk1rotate;
+ var stuk2top;
+ var stuk2left;
+ var stuk3top;
+ var stuk3left;
+ var stuk4top;
+ var stuk4left;
+ var stuk5top;
+ var stuk5left;
+ var stuk6top;
+ var stuk6left;
+ var stuk7top;
+ var stuk7left;
+ var stuk8top;
+ var stuk8left;
+ var stuk9top;
+ var stuk9left;
+ var stuk10top;
+ var stuk10left;
+ var stuk11top;
+ var stuk11left;
+ var stuk12top;
+ var stuk12left;
+ var stuk13top;
+ var stuk13left;
+ var stuk14top;
+ var stuk14left;
+    
  console.log(stuk1top);
 
- stuk1top = -93 + (scrolltop * 0.5 ); // move bubble1 at 20% of scroll rate
- stuk1left = -72 + (scrolltop * 0.2 );
-
+ stuk1top = -200 + (scrolltop * 0.3 );
+ stuk1left = -200 + (scrolltop * 0.3 );
+ //stuk1rotate = -100 + (scrolltop * 0.15);
+    
+ stuk2top = -0 + (scrolltop * 0.0 );
+ stuk2left = -200 + (scrolltop * 0.3 );
+    
+ stuk3top = -100 + (scrolltop * 0.15 );
+ stuk3left = -200 + (scrolltop * 0.3 );
+    
+ stuk4top = -200 + (scrolltop * 0.3 );
+ stuk4left = -20 + (scrolltop * 0.03 );
+    
+ stuk5top = -200 + (scrolltop * 0.3 );
+ stuk5left = 20 + (scrolltop * -0.03 );
+    
+ stuk6top = -200 + (scrolltop * 0.3 );
+ stuk6left = 100 + (scrolltop * -0.15 );
+    
+ stuk7top = 100 + (scrolltop * -0.15 );
+ stuk7left = -200 + (scrolltop * 0.3 );
+    
+ stuk8top = 200 + (scrolltop * -0.3 );
+ stuk8left = -200 + (scrolltop * 0.3 );
+    
+ stuk9top = 200 + (scrolltop * -0.3 );
+ stuk9left = 100 + (scrolltop * -0.15 );
+    
+ stuk10top = -100 + (scrolltop * 0.15 );
+ stuk10left = 200 + (scrolltop * -0.3 ); 
+    
+ stuk11top = 20 + (scrolltop * -0.03 );
+ stuk11left = 200 + (scrolltop * -0.3 ); 
+    
+ stuk12top = 200 + (scrolltop * -0.3 );
+ stuk12left = -20 + (scrolltop * 0.03 );
+    
+ stuk13top = 200 + (scrolltop * -0.3 );
+ stuk13left = 200 + (scrolltop * -0.3 );
+    
+ stuk14top = 200 + (scrolltop * -0.3 );
+ stuk14left = 20 + (scrolltop * -0.03 );    
+    
  if(stuk1top > 1){
  	stuk1top = 0;
  	stuk1left = 0;
+    stuk1rotate= 0; //1
+    stuk2top = 0;
+ 	stuk2left = 0; //2
+    stuk3top = 0;
+ 	stuk3left = 0; //3
+    stuk4top = 0;
+ 	stuk4left = 0; //4
+    stuk5top = 0;
+ 	stuk5left = 0; //5
+    stuk6top = 0;
+ 	stuk6left = 0; //6
+    stuk7top = 0;
+ 	stuk7left = 0; //7
+    stuk8top = 0;
+ 	stuk8left = 0; //8
+    stuk9top = 0;
+ 	stuk9left = 0; //9
+    stuk10top = 0;
+ 	stuk10left = 0; //10
+    stuk11top = 0;
+ 	stuk11left = 0; //11
+    stuk12top = 0;
+ 	stuk12left = 0; //12
+    stuk13top = 0;
+ 	stuk13left = 0; //13
+    stuk14top = 0;
+ 	stuk14left = 0; //14
  }
  else
  {
  	 console.log(stuk1top);
  }
- stuk1.style.top = stuk1top + 'px';
- stuk1.style.left = stuk1left + 'px';
- 
+     //stuk1.style.webkitTransform = 'rotate('+stuk1rotate+'deg)';
+     stuk1.style.top = stuk1top + '%';
+     stuk1.style.left = stuk1left + '%'; //1
+     stuk2.style.top = stuk2top + '%';
+     stuk2.style.left = stuk2left + '%'; //2
+     stuk3.style.top = stuk3top + '%';
+     stuk3.style.left = stuk3left + '%'; //3
+     stuk4.style.top = stuk4top + '%';
+     stuk4.style.left = stuk4left + '%'; //4
+     stuk5.style.top = stuk5top + '%';
+     stuk5.style.left = stuk5left + '%'; //5
+     stuk6.style.top = stuk6top + '%';
+     stuk6.style.left = stuk6left + '%'; //6
+     stuk7.style.top = stuk7top + '%';
+     stuk7.style.left = stuk7left + '%'; //7
+     stuk8.style.top = stuk8top + '%';
+     stuk8.style.left = stuk8left + '%'; //8
+     stuk9.style.top = stuk9top + '%';
+     stuk9.style.left = stuk9left + '%'; //9
+     stuk10.style.top = stuk10top + '%';
+     stuk10.style.left = stuk10left + '%'; //10
+     stuk11.style.top = stuk11top + '%';
+     stuk11.style.left = stuk11left + '%'; //11
+     stuk12.style.top = stuk12top + '%';
+     stuk12.style.left = stuk12left + '%'; //12
+     stuk13.style.top = stuk13top + '%';
+     stuk13.style.left = stuk13left + '%'; //13
+     stuk14.style.top = stuk14top + '%';
+     stuk14.style.left = stuk14left + '%'; //14
 
 }
  

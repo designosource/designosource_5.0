@@ -1,6 +1,6 @@
 .container{
 	.landing{
-		height: 100vh;
+		height: 200vh;
 		width: 100%;
 		background-color: $color1;
 		.container-stukken{
@@ -8,13 +8,17 @@
     		height: 322px;
 			margin: 0 auto;
 			position:fixed;
+            left: 200px;
+            top: 200px;
+            font-size: 20px;
+            color: white;
 			//margin-top: 200px;
 			/*background-image: url(../../images/logo_ei.svg);
 			background-repeat: no-repeat;*/
 			#stuk1final{
 				width: 93px;
 			    height: 72px;
-			    position: relative;
+			    position: absolute;
 			    top: 7px;
 			    left: 29px;
 			}
@@ -26,14 +30,27 @@
 			    position: absolute;
 			    transition: 0.5s ease/*cubic-bezier(.1,.56,.87,.35)*/;
 			}
-			#stuk2{
-				background-image: url(../../images/stukken_ei/stuk2.svg);
-			    background-repeat: no-repeat;
-			    width: 98px;
+            #stuk2final{
+				width: 98px;
 			    height: 130px;
 			    position: absolute;
 			    top: 80px;
 			    left: 4px;
+			}
+			#stuk2{
+				background-image: url(../../images/stukken_ei/stuk2.svg);
+			    background-repeat: no-repeat;
+                width: 98px;
+			    height: 130px;
+			    position: absolute;
+                transition: 0.5s ease;
+			}
+            #stuk3final{
+				width: 100px;
+			    height: 74px;
+			    position: absolute;
+			    top: 79px;
+			    left: 28px;
 			}
 			#stuk3{
 				background-image: url(../../images/stukken_ei/stuk3.svg);
@@ -41,8 +58,14 @@
 			    width: 100px;
 			    height: 74px;
 			    position: absolute;
-			    top: 79px;
-			    left: 28px;
+                transition: 0.5s ease;
+			}
+            #stuk4final{
+			    width: 100px;
+			    height: 110px;
+			    position: absolute;
+			    top: 7px;
+			    left: 30px;
 			}
 			#stuk4{
 				background-image: url(../../images/stukken_ei/stuk4.svg);
@@ -50,9 +73,14 @@
 			    width: 100px;
 			    height: 110px;
 			    position: absolute;
-			    top: 7px;
-			    left: 30px;
 			    transition: 0.5s ease/*cubic-bezier(.1,.56,.87,.35)*/;
+			}
+            #stuk5final{
+			    width: 119px;
+			    height: 147px;
+			    position: absolute;
+			    top: 5px;
+			    left: 100px;
 			}
 			#stuk5{
 				background-image: url(../../images/stukken_ei/stuk5.svg);
@@ -60,8 +88,14 @@
 			    width: 119px;
 			    height: 147px;
 			    position: absolute;
-			    top: 5px;
-			    left: 100px;
+                transition: 0.5s ease;
+			}
+            #stuk6final{
+			    width: 111px;
+			    height: 119px;
+			    position: absolute;
+			    top: 39px;
+			    left: 133px;
 			}
 			#stuk6{
 				background-image: url(../../images/stukken_ei/stuk6.svg);    
@@ -69,8 +103,14 @@
 			    width: 111px;
 			    height: 119px;
 			    position: absolute;
-			    top: 39px;
-			    left: 133px;
+                transition: 0.5s ease;
+			}
+            #stuk7final{
+			    width: 95px;
+			    height: 134px;
+			    position: absolute;
+			    top: 152px;
+			    left: 6px;
 			}
 			#stuk7{
 				background-image: url(../../images/stukken_ei/stuk7.svg);    
@@ -78,8 +118,14 @@
 			    width: 95px;
 			    height: 134px;
 			    position: absolute;
-			    top: 152px;
-			    left: 6px;
+                transition: 0.5s ease;
+			}
+            #stuk8final{
+			    width: 109px;
+			    height: 137px;
+			    position: absolute;
+			    top: 151px;
+			    left: 47px;
 			}
 			#stuk8{
 				background-image: url(../../images/stukken_ei/stuk8.svg);    
@@ -87,8 +133,14 @@
 			    width: 109px;
 			    height: 137px;
 			    position: absolute;
-			    top: 151px;
-			    left: 47px;
+                transition: 0.5s ease;
+			}
+            #stuk9final{
+			    width: 59px;
+			    height: 157px;
+			    position: absolute;
+			    top: 111px;
+			    left: 100px;
 			}
 			#stuk9{
 				background-image: url(../../images/stukken_ei/stuk9.svg);    
@@ -96,8 +148,14 @@
 			    width: 59px;
 			    height: 157px;
 			    position: absolute;
+                transition: 0.5s ease;
+			}
+            #stuk10final{
+			    width: 108px;
+			    height: 104px;
+			    position: absolute;
 			    top: 111px;
-			    left: 100px;
+			    left: 135px;
 			}
 			#stuk10{
 				background-image: url(../../images/stukken_ei/stuk10.svg);    
@@ -105,8 +163,14 @@
 			    width: 108px;
 			    height: 104px;
 			    position: absolute;
-			    top: 111px;
-			    left: 135px;
+                transition: 0.5s ease;
+			}
+            #stuk11final{
+			    width: 80px;
+			    height: 159px;
+			    position: absolute;
+			    top: 110px;
+			    left: 133px;
 			}
 			#stuk11{
 				background-image: url(../../images/stukken_ei/stuk11.svg);    
@@ -114,8 +178,14 @@
 			    width: 80px;
 			    height: 159px;
 			    position: absolute;
-			    top: 110px;
-			    left: 133px;
+                transition: 0.5s ease;
+			}
+            #stuk12final{
+			    width: 116px;
+			    height: 54px;
+			    position: absolute;
+			    top: 267px;
+			    left: 49px;
 			}
 			#stuk12{
 				background-image: url(../../images/stukken_ei/stuk12.svg);    
@@ -123,8 +193,14 @@
 			    width: 116px;
 			    height: 54px;
 			    position: absolute;
-			    top: 267px;
-			    left: 49px;
+                transition: 0.5s ease;
+			}
+            #stuk13final{
+			    width: 100px;
+			    height: 98px;
+			    position: absolute;
+			    top: 213px;
+			    left: 153px;
 			}
 			#stuk13{
 				background-image: url(../../images/stukken_ei/stuk13.svg);    
@@ -132,8 +208,14 @@
 			    width: 100px;
 			    height: 98px;
 			    position: absolute;
-			    top: 213px;
-			    left: 153px;
+                transition: 0.5s ease;
+			}
+            #stuk14final{
+			    width: 105px;
+			    height: 159px;
+			    position: absolute;
+			    top: 151px;
+			    left: 164px;
 			}
 			#stuk14{
 				background-image: url(../../images/stukken_ei/stuk14.svg);    
@@ -141,8 +223,7 @@
 			    width: 105px;
 			    height: 159px;
 			    position: absolute;
-			    top: 151px;
-			    left: 164px;
+                transition: 0.5s ease;
 			}
 		}
 		
