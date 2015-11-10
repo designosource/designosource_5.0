@@ -527,5 +527,56 @@ footer {
     padding-bottom: 20px; }
   footer #visitekaartje #projectby #tmlink {
     display: none; }
-
-/*# sourceMappingURL=style.css.map */
+  @media (min-width: 801px) {
+    footer {
+      height: 630px;
+      background-position: right bottom;
+      background-size: 500px; }
+      footer textarea {
+        width: 70%;
+        height: 165px; }
+      footer #emailadres {
+        width: 70%; }
+      footer #btnbericht {
+        clear: left;
+        width: 200px; }
+      footer #socialMedia {
+        width: 156px;
+        margin-top: -42px; }
+      footer #socialMedia {
+        height: 42px; }
+      footer #socialMedia li {
+        height: 42px;
+        width: 42px; }
+      footer #socialMedia li a {
+        height: 42px;
+        width: 42px; }
+      footer #visitekaartje {
+        margin-top: -312px;
+        float: right;
+        width: 160px;
+        text-align: left; }
+        footer #visitekaartje #company {
+          text-align: left; }
+        footer #visitekaartje p {
+          width: 160px; }
+        footer #visitekaartje #projectby p {
+          text-align: left; }
+        footer #visitekaartje #projectby #tmlogo {
+          width: 160px;
+          margin-left: 0;
+          margin-right: 0; }
+        footer #visitekaartje #address {
+          padding-left: 0px; } }
+  @media (min-width: 1024px) {
+    footer textarea {
+      width: 661px;
+      height: 165px; }
+    footer #emailadres {
+      width: 661px; }
+    footer #socialMedia {
+      margin-left: 509px;
+      margin-right: 0; }
+    footer #visitekaartje {
+      float: left;
+      margin-left: 750px; } }
