@@ -1,17 +1,32 @@
+$(document).ready(function() {
+        var ei = $("#eitje")[0].offsetWidth;
+        var screen = $(".container")[0].offsetWidth;
+        var screenhalf;
+        var eihalf;
+            eihalf = ei/2;
+            screenhalf = screen/2;
+        var midden = screenhalf - eihalf;
+        $("#eitje").css("left",midden);
+    window.addEventListener("resize", opscherm);
+    function opscherm() {
+        var ei = $("#eitje")[0].offsetWidth;
+        var screen = $(".container")[0].offsetWidth;
+        var screenhalf;
+        var eihalf;
+            eihalf = ei/2;
+            screenhalf = screen/2;
+        var midden = screenhalf - eihalf;
+        $("#eitje").css("left",midden);
+    }  
+});
+
 window.requestAnimationFrame = window.requestAnimationFrame
  || window.mozRequestAnimationFrame
  || window.webkitRequestAnimationFrame
  || window.msRequestAnimationFrame
  || function(f){setTimeout(f, 1000/60)};
  
- $( document ).ready(function() {
- 	var ei = $("#eitje");
-    console.log(ei[0].offsetWidth);
-
-    //$#("#eitje").css('left',)
-});
- 
- 
+parallaxcube();
 function parallaxcube(){
  var stuk1 = document.getElementById('stuk1');
  var stuk2 = document.getElementById('stuk2');
@@ -60,17 +75,17 @@ function parallaxcube(){
  var stuk14top;
  var stuk14left;
     
- console.log(stuk1top);
+ //console.log(stuk1top);
 
- stuk1top = -200 + (scrolltop * 0.3 );
- stuk1left = -200 + (scrolltop * 0.3 );
+ stuk1top = -300 + (scrolltop * 0.45 );
+ stuk1left = -300 + (scrolltop * 0.45 );
  //stuk1rotate = -100 + (scrolltop * 0.15);
     
  stuk2top = -0 + (scrolltop * 0.0 );
  stuk2left = -200 + (scrolltop * 0.3 );
     
- stuk3top = -100 + (scrolltop * 0.15 );
- stuk3left = -200 + (scrolltop * 0.3 );
+ stuk3top = -200 + (scrolltop * 0.3 );
+ stuk3left = -400 + (scrolltop * 0.6 );
     
  stuk4top = -200 + (scrolltop * 0.3 );
  stuk4left = -20 + (scrolltop * 0.03 );
@@ -96,19 +111,18 @@ function parallaxcube(){
  stuk11top = 20 + (scrolltop * -0.03 );
  stuk11left = 200 + (scrolltop * -0.3 ); 
     
- stuk12top = 200 + (scrolltop * -0.3 );
+ stuk12top = 400 + (scrolltop * -0.6 );
  stuk12left = -20 + (scrolltop * 0.03 );
     
  stuk13top = 200 + (scrolltop * -0.3 );
  stuk13left = 200 + (scrolltop * -0.3 );
     
  stuk14top = 200 + (scrolltop * -0.3 );
- stuk14left = 20 + (scrolltop * -0.03 );    
+ stuk14left = 200 + (scrolltop * -0.3 );    
     
  if(stuk1top > 1){
  	stuk1top = 0;
- 	stuk1left = 0;
-    stuk1rotate= 0; //1
+ 	stuk1left = 0; //1
     stuk2top = 0;
  	stuk2left = 0; //2
     stuk3top = 0;

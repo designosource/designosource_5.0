@@ -12,6 +12,7 @@
             top: 200px;
             font-size: 20px;
             color: white;
+            left: -9999px;
 			//margin-top: 200px;
 			/*background-image: url(../../images/logo_ei.svg);
 			background-repeat: no-repeat;*/
@@ -28,7 +29,7 @@
 				width: 93px;
 			    height: 72px;
 			    position: absolute;
-			    transition: 0.5s ease/*cubic-bezier(.1,.56,.87,.35)*/;
+			    transition: 0.1s/*cubic-bezier(.1,.56,.87,.35)*/;
 			}
             #stuk2final{
 				width: 98px;
@@ -43,7 +44,7 @@
                 width: 98px;
 			    height: 130px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk3final{
 				width: 100px;
@@ -58,7 +59,7 @@
 			    width: 100px;
 			    height: 74px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk4final{
 			    width: 100px;
@@ -73,7 +74,7 @@
 			    width: 100px;
 			    height: 110px;
 			    position: absolute;
-			    transition: 0.5s ease/*cubic-bezier(.1,.56,.87,.35)*/;
+			    transition: 0.1s/*cubic-bezier(.1,.56,.87,.35)*/;
 			}
             #stuk5final{
 			    width: 119px;
@@ -88,7 +89,7 @@
 			    width: 119px;
 			    height: 147px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk6final{
 			    width: 111px;
@@ -103,7 +104,7 @@
 			    width: 111px;
 			    height: 119px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk7final{
 			    width: 95px;
@@ -118,7 +119,7 @@
 			    width: 95px;
 			    height: 134px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk8final{
 			    width: 109px;
@@ -133,7 +134,7 @@
 			    width: 109px;
 			    height: 137px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk9final{
 			    width: 59px;
@@ -148,7 +149,7 @@
 			    width: 59px;
 			    height: 157px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk10final{
 			    width: 108px;
@@ -163,7 +164,7 @@
 			    width: 108px;
 			    height: 104px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk11final{
 			    width: 80px;
@@ -178,7 +179,7 @@
 			    width: 80px;
 			    height: 159px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk12final{
 			    width: 116px;
@@ -193,7 +194,7 @@
 			    width: 116px;
 			    height: 54px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk13final{
 			    width: 100px;
@@ -208,7 +209,7 @@
 			    width: 100px;
 			    height: 98px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
             #stuk14final{
 			    width: 105px;
@@ -223,7 +224,7 @@
 			    width: 105px;
 			    height: 159px;
 			    position: absolute;
-                transition: 0.5s ease;
+                transition: 0.1s;
 			}
 		}
 		
