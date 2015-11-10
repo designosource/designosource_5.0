@@ -180,7 +180,7 @@ footer{
 			    display: block;
 			    background-image: url("../../images/TM_logo.png");
 			    width: 128.25px;
-			    height: 50px;;
+			    height: 50px;
 			    background-size: 128.25px 50px;
 			    background-repeat: no-repeat;
 			    margin: 0 auto;
@@ -193,4 +193,94 @@ footer{
 		}
 	}
 
+	@media (min-width:801px) { 
+
+		height: 630px;
+
+		textarea{
+			width: 70%;
+			height: 165px;
+		}
+
+		#emailadres{
+			width: 70%;
+		}
+
+		#btnbericht{
+			clear: left;
+			width: 200px;
+		}
+
+		#socialMedia{
+			width: 156px;
+			margin-top: -42px;
+		}
+
+		#socialMedia{
+		    height: 42px;
+		    
+		}
+
+		#socialMedia li{
+	    	height: 42px;
+	    	width: 42px;
+		}
+
+		#socialMedia li a{
+	    	height: 42px;
+	   	 	width: 42px;
+		}
+
+		#visitekaartje{
+
+			margin-top: -312px;
+			float:right;
+			width: 160px;
+			text-align: left;
+
+			#company{text-align: left;}
+
+			p{width: 160px;}
+
+			#projectby p{text-align: left;}
+
+			#projectby #tmlogo{
+				width: 160px;
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+			#address{
+				padding-left: 0px;
+			}
+
+		}
+
+    background-position: right bottom;
+    background-size: 500px;
+
+	}
+
+	@media (min-width:1024px) {
+
+		textarea{
+			width: 661px;
+			height: 165px;
+		}
+
+		#emailadres{
+			width: 661px;
+		}
+
+		#socialMedia{
+			margin-left: 509px;
+			margin-right: 0;
+		}
+
+		#visitekaartje{
+			float: left;
+			margin-left: 750px;
+		}
+
+	}
 }
