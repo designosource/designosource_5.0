@@ -1,3 +1,8 @@
+.first_quote {
+  content: "";
+  display: table;
+  clear: both; }
+
 .first_quote p, .first_quote-line, .second_quote p, .second_quote-line {
   display: block;
   margin-right: auto;
@@ -261,16 +266,15 @@ header {
   width: 100%;
   height: 60%;
   padding: 20px 0px; }
-  header h1 {
+  header .left h1 {
     font-family: Didot-Italic;
     font-size: 2rem;
     width: 30%;
     padding-left: 50px;
     float: left; }
-  header .logo_thomasmore {
+  header .left .logo_thomasmore {
     float: left;
-    display: block;
-    width: 50%; }
+    width: 20%; }
   header p {
     clear: both;
     font-family: source_sans_prolight;
@@ -301,6 +305,22 @@ header {
     width: 70px;
     margin-top: 20px; }
 
+@media (min-width: 768px) {
+  header .left {
+    float: left;
+    background-color: blue;
+    width: 50%; }
+    header .left h1 {
+      width: 25%; }
+    header .left .logo_thomasmore {
+      display: block;
+      float: none;
+      width: 90%; }
+  header .right {
+    float: left;
+    background-color: red;
+    width: 50%; } }
+/*PROCESLIJN*/
 .watwedoen {
   width: 100%;
   height: 320px;
@@ -315,7 +335,6 @@ header {
     padding-bottom: 10px;
     padding: 10px 40px 0px 40px; }
 
-/*PROCESLIJN*/
 .watwedoen-werkwijze-werklijn {
   margin: auto;
   margin-bottom: -6px;
