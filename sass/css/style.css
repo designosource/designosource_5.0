@@ -1,4 +1,4 @@
-.first_quote p, .first_quote-line {
+.first_quote p, .first_quote-line, .second_quote p, .second_quote-line {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -259,7 +259,7 @@ body {
 
 header {
   width: 100%;
-  height: 450px;
+  height: 60%;
   padding: 20px 0px; }
   header h1 {
     font-family: Didot-Italic;
@@ -280,9 +280,11 @@ header {
 .first_quote {
   width: 100%;
   height: 120px;
-  background-color: #081925;
+  background-image: url(../../images/bg_quote.png);
+  background-position: center center;
   text-align: center;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 30px; }
   .first_quote p {
     color: white;
     width: 80%;
@@ -390,6 +392,30 @@ header {
   color: white;
   border-radius: 50%;
   margin-right: 15px; }
+
+.second_quote {
+  width: 100%;
+  height: 120px;
+  background-image: url(../../images/bg_quote.png);
+  background-position: center center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+  .second_quote p {
+    color: white;
+    width: 80%;
+    font-size: 1.9rem;
+    font-family: AlteDIN1451Mittelschrift-Regular;
+    margin-top: 5px; }
+    .second_quote p span {
+      font-family: Didot-Italic;
+      font-size: 1.5rem;
+      margin-top: 0; }
+  .second_quote-line {
+    height: 3px;
+    background-color: white;
+    width: 70px;
+    margin-top: 20px; }
 
 footer {
   /*mobile*/

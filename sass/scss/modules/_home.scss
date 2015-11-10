@@ -1,6 +1,6 @@
 header {
 	width: 100%;
-	height: 450px;
+	height: 60%;
 	padding: 20px 0px;
 
 	h1 {
@@ -28,9 +28,12 @@ header {
 .first_quote {
 	width: 100%;
 	height: 120px;
-	background-color: $color1;
+	// background-color: $color1;
+	background-image: url(../../images/bg_quote.png);
+	background-position: center center;
 	text-align: center;
 	padding-top: 50px;
+	padding-bottom: 30px;
 
 	p {
 		color: white;
