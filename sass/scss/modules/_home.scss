@@ -1,20 +1,18 @@
 header {
 	width: 100%;
-	height: 450px;
+	// height: 70%;
 	padding: 20px 0px;
 
-	h1 {
-		font-family: $font1;
-		font-size: 2rem;
-		width: 30%;
-		padding-left: 50px;
-		float: left;
-	}
+	.left {
 
-	.logo_thomasmore {
-		float: left;
-		display: block;
-		width: 50%;
+		h1 {
+			font-family: $font1;
+			font-size: 2rem;
+			width: 30%;
+			padding-left: 50px;
+			float: left;
+			padding-top: 40px;
+		}
 	}
 
 	p {
@@ -28,9 +26,13 @@ header {
 .first_quote {
 	width: 100%;
 	height: 120px;
-	background-color: $color1;
+	// background-color: $color1;
+	background-image: url(../../images/bg_quote.png);
+	background-position: center center;
 	text-align: center;
 	padding-top: 50px;
+	padding-bottom: 30px;
+	@extend %clearfix;
 
 	p {
 		color: white;
@@ -56,23 +58,34 @@ header {
 	}
 }
 
-.watwedoen {
-	width: 100%;
-	height: 320px;
-	padding-top: 50px;	
-		h3 {
-			font-family: $font1;
-			font-size: 0.8rem;
-			text-transform: uppercase;
-			padding: 10px 0px 10px 40px;
-		}
 
-		&-onderzoek {
-			font-size: 1rem;
-			padding-bottom: 10px;
-			padding: 10px 40px 0px 40px;
-		}
+@media(min-width: $phone) and (max-width: $tablet) {
+	header {
+		// height: 350px;
+	}
 }
 
+@media(min-width: $tablet) {
+	header {
+		// height: 250px;
+
+		.left {
+			float: left;
+			// background-color: blue;
+			width: 40%;
+
+			h1 {
+				// width: 25%;
+			}
+		}
+
+		.right {
+			float: left;
+			// background-color: red;
+			width: 57%;
+			margin-right: 3%;
+		}
+	}
+}
 
 
