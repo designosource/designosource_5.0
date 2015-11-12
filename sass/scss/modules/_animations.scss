@@ -2,7 +2,9 @@
 	.landing{
 		height: 200vh;
 		width: 100%;
-		background-color: $color1;
+		background-image: url(../../images/bg_probeer-01.svg);
+		background-repeat: no-repeat;
+		background-position: cover;
 		.container-stukken{
 			width: 250px;
     		height: 322px;
