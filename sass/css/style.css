@@ -67,7 +67,9 @@ body {
 .container .landing {
   height: 200vh;
   width: 100%;
-  background-color: #081925; }
+  background-image: url(../../images/bg_probeer-01.svg);
+  background-repeat: no-repeat;
+  background-position: cover; }
   .container .landing .container-stukken {
     width: 250px;
     height: 322px;
