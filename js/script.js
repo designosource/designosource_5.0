@@ -47,7 +47,6 @@ function parallaxcube(){
  
  var stuk1top;
  var stuk1left;
- //var stuk1rotate;
  var stuk2top;
  var stuk2left;
  var stuk3top;
@@ -77,27 +76,27 @@ function parallaxcube(){
     
  //console.log(stuk1top);
 
- stuk1top = -300 + (scrolltop * 0.45 );
+ stuk1top = -200 + (scrolltop * 0.3 );
  stuk1left = -300 + (scrolltop * 0.45 );
  //stuk1rotate = -100 + (scrolltop * 0.15);
     
  stuk2top = -0 + (scrolltop * 0.0 );
- stuk2left = -200 + (scrolltop * 0.3 );
+ stuk2left = -300 + (scrolltop * 0.45 );
     
  stuk3top = -200 + (scrolltop * 0.3 );
- stuk3left = -400 + (scrolltop * 0.6 );
+ stuk3left = -600 + (scrolltop * 0.9 );
     
  stuk4top = -200 + (scrolltop * 0.3 );
  stuk4left = -20 + (scrolltop * 0.03 );
     
- stuk5top = -200 + (scrolltop * 0.3 );
+ stuk5top = -400 + (scrolltop * 0.6 );
  stuk5left = 20 + (scrolltop * -0.03 );
     
  stuk6top = -200 + (scrolltop * 0.3 );
- stuk6left = 100 + (scrolltop * -0.15 );
+ stuk6left = 300 + (scrolltop * -0.45 );
     
  stuk7top = 100 + (scrolltop * -0.15 );
- stuk7left = -200 + (scrolltop * 0.3 );
+ stuk7left = -600 + (scrolltop * 0.9 );
     
  stuk8top = 200 + (scrolltop * -0.3 );
  stuk8left = -200 + (scrolltop * 0.3 );
@@ -106,19 +105,19 @@ function parallaxcube(){
  stuk9left = 100 + (scrolltop * -0.15 );
     
  stuk10top = -100 + (scrolltop * 0.15 );
- stuk10left = 200 + (scrolltop * -0.3 ); 
+ stuk10left = 600 + (scrolltop * -0.9 ); 
     
  stuk11top = 20 + (scrolltop * -0.03 );
  stuk11left = 200 + (scrolltop * -0.3 ); 
     
- stuk12top = 400 + (scrolltop * -0.6 );
+ stuk12top = 600 + (scrolltop * -0.9 );
  stuk12left = -20 + (scrolltop * 0.03 );
     
  stuk13top = 200 + (scrolltop * -0.3 );
  stuk13left = 200 + (scrolltop * -0.3 );
     
  stuk14top = 200 + (scrolltop * -0.3 );
- stuk14left = 200 + (scrolltop * -0.3 );    
+ stuk14left = 400 + (scrolltop * -0.6 );    
     
  if(stuk1top > 1){
  	stuk1top = 0;
@@ -149,12 +148,68 @@ function parallaxcube(){
  	stuk13left = 0; //13
     stuk14top = 0;
  	stuk14left = 0; //14
+    //$(".eiAchtergrond").animate({ opacity: 1 }, 1000 );
+    $("#dot1").addClass("animation fadeIn1");
+    $("#dot2").addClass("animation fadeIn2");
+    $("#dot3").addClass("animation fadeIn3");
+    $("#dot4").addClass("animation fadeIn5");
+    $("#dot5").addClass("animation fadeIn3");
+    $("#dot6").addClass("animation fadeIn1");
+    $("#dot7").addClass("animation fadeIn8");
+    $("#dot8").addClass("animation fadeIn4");
+    $("#dot9").addClass("animation fadeIn7");
+    $("#dot10").addClass("animation fadeIn6");
+    $("#dot11").addClass("animation fadeIn2");
+    $("#dot12").addClass("animation fadeIn4");
+     
+    $("#stuk1t").addClass("animation fadeIn1");
+    $("#stuk2t").addClass("animation fadeIn2");
+    $("#stuk3t").addClass("animation fadeIn3");
+    $("#stuk4t").addClass("animation fadeIn5");
+    $("#stuk5t").addClass("animation fadeIn3");
+    $("#stuk6t").addClass("animation fadeIn1");
+    $("#stuk7t").addClass("animation fadeIn8");
+    $("#stuk8t").addClass("animation fadeIn4");
+    $("#stuk9t").addClass("animation fadeIn7");
+    $("#stuk10t").addClass("animation fadeIn6");
+    $("#stuk11t").addClass("animation fadeIn2");
+    $("#stuk12t").addClass("animation fadeIn4");
+    $("#stuk13t").addClass("animation fadeIn7");
+    $("#stuk14t").addClass("animation fadeIn8");
+    $("#titleLogo").addClass("animation fadeIn8"); 
  }
- else
+ else if (stuk1top < 1)
  {
- 	 console.log(stuk1top);
+    //$(".eiAchtergrond").animate({ opacity: 0 }, 0 );
+    $("#dot1").removeClass("animation fadeIn1");
+    $("#dot2").removeClass("animation fadeIn2");
+    $("#dot3").removeClass("animation fadeIn3");
+    $("#dot4").removeClass("animation fadeIn5");
+    $("#dot5").removeClass("animation fadeIn3");
+    $("#dot6").removeClass("animation fadeIn1");
+    $("#dot7").removeClass("animation fadeIn8");
+    $("#dot8").removeClass("animation fadeIn4");
+    $("#dot9").removeClass("animation fadeIn7");
+    $("#dot10").removeClass("animation fadeIn6");
+    $("#dot11").removeClass("animation fadeIn2");
+    $("#dot12").removeClass("animation fadeIn4");
+     
+    $("#stuk1t").removeClass("animation fadeIn1");
+    $("#stuk2t").removeClass("animation fadeIn2");
+    $("#stuk3t").removeClass("animation fadeIn3");
+    $("#stuk4t").removeClass("animation fadeIn5");
+    $("#stuk5t").removeClass("animation fadeIn3");
+    $("#stuk6t").removeClass("animation fadeIn1");
+    $("#stuk7t").removeClass("animation fadeIn8");
+    $("#stuk8t").removeClass("animation fadeIn4");
+    $("#stuk9t").removeClass("animation fadeIn7");
+    $("#stuk10t").removeClass("animation fadeIn6");
+    $("#stuk11t").removeClass("animation fadeIn2");
+    $("#stuk12t").removeClass("animation fadeIn4");
+    $("#stuk13t").removeClass("animation fadeIn7");
+    $("#stuk14t").removeClass("animation fadeIn8");
+    $("#titleLogo").removeClass("animation fadeIn8");
  }
-     //stuk1.style.webkitTransform = 'rotate('+stuk1rotate+'deg)';
      stuk1.style.top = stuk1top + '%';
      stuk1.style.left = stuk1left + '%'; //1
      stuk2.style.top = stuk2top + '%';
