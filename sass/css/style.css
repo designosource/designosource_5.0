@@ -67,7 +67,8 @@ body {
 .container .landing {
   height: 200vh;
   width: 100%;
-  background-color: #081925; }
+  background-color: #081925;
+  z-index: -1; }
   .container .landing .container-stukken {
     position: fixed;
     top: 160px;

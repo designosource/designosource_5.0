@@ -3,6 +3,7 @@
 		height: 200vh;
 		width: 100%;
 		background-color: $color1;
+        z-index: -1;
         .container-stukken{
 			position:fixed;
             top: 160px;
