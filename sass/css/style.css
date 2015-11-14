@@ -601,16 +601,16 @@ header {
     width: 80%;
     font-size: 1.9rem;
     font-family: AlteDIN1451Mittelschrift-Regular;
-    margin-top: 5px; }
+    margin-top: 10px; }
     .first_quote p span {
       font-family: Didot-Italic;
       font-size: 1.5rem;
-      margin-top: 0; }
+      line-height: 2.2rem; }
   .first_quote-line {
-    height: 3px;
+    height: 1.5px;
     background-color: white;
-    width: 70px;
-    margin-top: 20px; }
+    width: 120px;
+    margin-top: 15px; }
 
 @media (min-width: 768px) {
   header .left {
@@ -778,12 +778,12 @@ header {
     .second_quote p span {
       font-family: Didot-Italic;
       font-size: 1.5rem;
-      margin-top: 0; }
+      line-height: 2.2rem; }
   .second_quote-line {
-    height: 3px;
+    height: 1.5px;
     background-color: white;
-    width: 70px;
-    margin-top: 20px; }
+    width: 120px;
+    margin-top: 15px; }
 
 .teamcont {
   padding: 0 40px;
