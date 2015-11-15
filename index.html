@@ -7,19 +7,18 @@
 	<link rel="stylesheet" href="sass/css/style.css">
 
 	<script src="js/jquery-2.1.4.min.js"></script>
-
 	<link rel="stylesheet" href="sass/scss/modules/fonts/webfonts/stylesheet.css">
 </head>
 <body>
 
 	<div class="container" onresize="onResize()">
-		<nav>
-			<a id="logo" href="#Home"><img src="" alt="logo_homelink"></a>
+		<nav id="menu">
+			<a id="logo" class="smoothScroll" href="#Home"><img src="" alt="logo_homelink"></a>
 			<div class="navigation">
-				<a href="#Home">Home</a>
-				<a href="#Projecten">Projecten</a>
-				<a href="#Team">Team</a>
-				<a href="#Contact">Contact</a>
+				<a class="smoothScroll" href="#Home">Home</a>
+				<a class="smoothScroll" href="#Projecten">Projecten</a>
+				<a class="smoothScroll" href="#Team">Team</a>
+				<a class="smoothScroll" href="#Contact">Contact</a>
 			</div>
 		</nav>
 
@@ -56,7 +55,7 @@
 				</div>
             
 		</section>
-		<header>
+		<header id="Home">
 			<div class="left">
 				<h1>Architecten van het web.</h1>
 				<!-- <img src="images/TM_logo.png" class="logo_thomasmore" alt="logo_thomasmore"> -->
@@ -110,20 +109,28 @@
 				<div class="watwedoen-werkwijze-werklijn"></div>
 				
 				<div class="watwedoen-werkwijze">					
-					<div class="watwedoen-werkwijze-wwstap1 wwstap1 bol "><div class="binbol ticked"></div></div>
-					<div class="watwedoen-werkwijze-wwstap2 wwstap2 bol"><div class="binbol"></div></div>
-					<div class="watwedoen-werkwijze-wwstap3 wwstap3 bol"><div class="binbol"></div></div>
-					<div class="watwedoen-werkwijze-wwstap4 wwstap4 bol"><div class="binbol"></div></div>
-					<div class="watwedoen-werkwijze-wwstap5 wwstap5 bol"><div class="binbol"></div></div>
+					<div class="wwstap1 bol ticked"><div class="binbol ">1</div></div>
+					<div class="wwstap2 bol"><div class="binbol">2</div></div>
+					<div class="wwstap3 bol"><div class="binbol">3</div></div>
+					<div class="wwstap4 bol"><div class="binbol">4</div></div>
+					<div class="wwstap5 bol"><div class="binbol">5</div></div>
 				</div>				
 
 				<!-- bollekes links? -->
+
+				<div class="stapwoorden">
+					<div><div>Meet and greet</div></div>
+					<div><div>Sketch en design</div></div>
+					<div><div>Ontwikkeling</div></div>
+					<div><div>Testing the product</div></div>
+					<div><div>Lancering en onderhoud</div></div>
+				</div>
 
 		</section>
 
 		<section class="projecten">
 
-			<h2>Projecten</h2>
+			<h2 id="Projecten">Projecten</h2>
 			<div class="line"></div>
 
 
@@ -131,20 +138,73 @@
 		</section>
 
 		<section class="second_quote">
-			<p><span>make</span><br>a killer first impression</p>
+			<p><span>embrace</span><br>the wildest ideas</p>
 			<div class="first_quote-line"></div>			
 		</section>
 
 		<section class="team">
 
-			<h2>Het team</h2>
+			<h2 id="Team">Het team</h2>
 			<div class="line"></div>
+			<div class="teamcont">
+				<ul class="teamlist">
+					<li class="thais">
+						<div class="teamdesc">
+							<span class="name">Thakke</span>
+							<span class="job">Designer - Developer</span>
+							<ul class="team_sm">
+								<li><a class="t_fb" href="#"></a></li>
+								<li><a class="t_twitter" href="#"></a></li>
+								<li><a  class="t_linkedin" href="#"></a></li>
+							</ul>
+						</div>
+					</li>					
+					<li class="thais">
+						<div class="teamdesc">
+							<span class="name">Thakke</span>
+							<span class="job">Designer - Developer</span>
+							<ul class="team_sm">
+								<li><a class="t_fb" href=""></a></li>
+								<li><a class="t_twitter" href=""></a></li>
+								<li><a  class="t_linkedin" href=""></a></li>
+							</ul>
+						</div>
+					</li>
+								<li class="thais">
+						<div class="teamdesc">
+							<span class="name">Thakke</span>
+							<span class="job">Designer - Developer</span>
+							<ul class="team_sm">
+								<li><a class="t_fb" href=""></a></li>
+								<li><a class="t_twitter" href=""></a></li>
+								<li><a  class="t_linkedin" href=""></a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="thais">
+						<div class="teamdesc">
+							<span class="name">Thakke</span>
+							<span class="job">Designer - Developer</span>
+							<ul class="team_sm">
+								<li><a class="t_fb" href=""></a></li>
+								<li><a class="t_twitter" href=""></a></li>
+								<li><a  class="t_linkedin" href=""></a></li>
+							</ul>
+						</div>
+					</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<br><br><br><br><br>
 			
 		</section>
 
 		<footer>
 
-			<h2>Contacteer ons</h2>
+			<h2 id="Contact">Contacteer ons</h2>
 			<div class="line"></div>
 
 			<form action="post">
@@ -156,8 +216,8 @@
 				</div>
 				
 				<div id="writingarea">
-					<textarea name="bericht" id="bericht" cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea>
-					<input type="text" name="emailadres" id="emailadres" placeholder="Emailadres">
+					<textarea name="bericht" id="bericht" cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
+					<input type="text" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
 					<input type="submit" name="btnbericht" id="btnbericht" value="verzenden">
 				</div>
 			</form>
@@ -194,9 +254,11 @@
 		</footer>
 
 	</div>
-	
+
+	<script src="//http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/werkwijze.js"></script>
-
+	<script src="js/team.js"></script>
+	<script src="js/nav.js"></script>
 </body>
 </html>
