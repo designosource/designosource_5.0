@@ -6,6 +6,8 @@
 		background-color: #08131d;
 		background-repeat: no-repeat;
 		background-position: cover;
+		background-color: $color1;
+        z-index: -1;
         .container-stukken{
 			position:fixed;
             top: 160px;

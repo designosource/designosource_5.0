@@ -74,11 +74,9 @@ function parallaxcube(){
  var stuk14top;
  var stuk14left;
     
- //console.log(stuk1top);
 
  stuk1top = -200 + (scrolltop * 0.3 );
  stuk1left = -300 + (scrolltop * 0.45 );
- //stuk1rotate = -100 + (scrolltop * 0.15);
     
  stuk2top = -0 + (scrolltop * 0.0 );
  stuk2left = -300 + (scrolltop * 0.45 );
