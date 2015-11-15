@@ -1,6 +1,8 @@
 $(document).ready(function() {
         var ei = $("#eitje")[0].offsetWidth;
         var screen = $(".container")[0].offsetWidth;
+        var landing = $(".landing")[0].offsetHeight;
+        console.log(landing);
         var screenhalf;
         var eihalf;
             eihalf = ei/2;
@@ -42,7 +44,7 @@ function parallaxcube(){
  var stuk12 = document.getElementById('stuk12');
  var stuk13 = document.getElementById('stuk13');
  var stuk14 = document.getElementById('stuk14');
-    
+ 
  var scrolltop = window.scrollY; // get number of pixels document has scrolled vertically
  
  var stuk1top;
@@ -174,7 +176,7 @@ function parallaxcube(){
     $("#stuk12t").addClass("animation fadeIn4");
     $("#stuk13t").addClass("animation fadeIn7");
     $("#stuk14t").addClass("animation fadeIn8");
-    $("#titleLogo").addClass("animation fadeIn8"); 
+    $("#titleLogo").addClass("animation fadeIn3"); 
  }
  else if (stuk1top < 1)
  {
@@ -206,7 +208,7 @@ function parallaxcube(){
     $("#stuk12t").removeClass("animation fadeIn4");
     $("#stuk13t").removeClass("animation fadeIn7");
     $("#stuk14t").removeClass("animation fadeIn8");
-    $("#titleLogo").removeClass("animation fadeIn8");
+    $("#titleLogo").removeClass("animation fadeIn3");
  }
      stuk1.style.top = stuk1top + '%';
      stuk1.style.left = stuk1left + '%'; //1
