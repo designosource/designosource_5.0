@@ -7,19 +7,18 @@
 	<link rel="stylesheet" href="sass/css/style.css">
 
 	<script src="js/jquery-2.1.4.min.js"></script>
-
 	<link rel="stylesheet" href="sass/scss/modules/fonts/webfonts/stylesheet.css">
 </head>
 <body>
 
 	<div class="container" onresize="onResize()">
-		<nav>
-			<a id="logo" href="#Home"><img src="" alt="logo_homelink"></a>
+		<nav id="menu">
+			<a id="logo" class="smoothScroll" href="#Home"><img src="" alt="logo_homelink"></a>
 			<div class="navigation">
-				<a href="#Home">Home</a>
-				<a href="#Projecten">Projecten</a>
-				<a href="#Team">Team</a>
-				<a href="#Contact">Contact</a>
+				<a class="smoothScroll" href="#Home">Home</a>
+				<a class="smoothScroll" href="#Projecten">Projecten</a>
+				<a class="smoothScroll" href="#Team">Team</a>
+				<a class="smoothScroll" href="#Contact">Contact</a>
 			</div>
 		</nav>
 
@@ -56,7 +55,7 @@
 				</div>
             
 		</section>
-		<header>
+		<header id="Home">
 			<div class="left">
 				<h1>Architecten van het web.</h1>
 				<!-- <img src="images/TM_logo.png" class="logo_thomasmore" alt="logo_thomasmore"> -->
@@ -131,7 +130,7 @@
 
 		<section class="projecten">
 
-			<h2>Projecten</h2>
+			<h2 id="Projecten">Projecten</h2>
 			<div class="line"></div>
 
 
@@ -139,13 +138,13 @@
 		</section>
 
 		<section class="second_quote">
-			<p><span>make</span><br>a killer first impression</p>
+			<p><span>embrace</span><br>the wildest ideas</p>
 			<div class="first_quote-line"></div>			
 		</section>
 
 		<section class="team">
 
-			<h2>Het team</h2>
+			<h2 id="Team">Het team</h2>
 			<div class="line"></div>
 			<div class="teamcont">
 				<ul class="teamlist">
@@ -159,7 +158,7 @@
 								<li><a  class="t_linkedin" href="#"></a></li>
 							</ul>
 						</div>
-					</li>
+					</li>					
 					<li class="thais">
 						<div class="teamdesc">
 							<span class="name">Thakke</span>
@@ -205,7 +204,7 @@
 
 		<footer>
 
-			<h2>Contacteer ons</h2>
+			<h2 id="Contact">Contacteer ons</h2>
 			<div class="line"></div>
 
 			<form action="post">
@@ -255,9 +254,11 @@
 		</footer>
 
 	</div>
-	
+
+	<script src="//http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/werkwijze.js"></script>
 	<script src="js/team.js"></script>
+	<script src="js/nav.js"></script>
 </body>
 </html>

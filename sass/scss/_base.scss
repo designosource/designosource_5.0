@@ -1,11 +1,18 @@
 body {
 	font-size: 62.5%;
 	font-family : $font3;
+	margin: O;
 
 	nav {
 		background-color: $color1;
 		height: 50px;
 		width: 100%;
+		position:fixed;
+		top:0px;
+		color: #FFFFFF;
+		z-index:9999;
+		display: none;
+
 		#logo {
 			width: 30px;
 			height: 30px;

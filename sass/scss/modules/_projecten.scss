@@ -19,15 +19,15 @@
 		span {
 			font-family: $font1;
 			font-size: 1.5rem;
-			margin-top: 0;
+			line-height: 2.2rem;
 		}
 	}
 
 	&-line {
-		height: 3px;
+		height: 1.5px;
 		background-color: white;
-		width: 70px;
-		margin-top: 20px;
+		width: 120px;
+		margin-top: 15px;
 		@extend %center;
 	}
 }
