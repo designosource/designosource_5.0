@@ -886,6 +886,20 @@ header {
 
 footer {
   /*mobile*/
+  /* .error::-webkit-input-placeholder { 
+      color:    #FFF;
+  }
+  .error::-moz-placeholder { 
+     color:    #FFF;
+     opacity:  1;
+  }
+  .error::-moz-placeholder { 
+     color:    #FFF;
+     opacity:  1;
+  }
+  .error::-ms-input-placeholder { 
+     color:    #FFF;
+  }*/
   background-color: #0c2334;
   padding: 50px 40px 0px 40px;
   color: white;
@@ -895,6 +909,10 @@ footer {
   background-repeat: no-repeat;
   background-position: center bottom;
   /*placeholder styling*/ }
+  footer .error {
+    background-color: #ff5a5a; }
+  footer label.error {
+    display: none !important; }
   footer h2 {
     padding-left: 0px; }
   footer .line {
