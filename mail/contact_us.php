@@ -30,13 +30,12 @@ return true;
 
 echo "<script>window.location = 'http://www.designosource.be'</script>";
 ?>*/
-
-<?php
+//<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //if(!empty($_POST['subject'])) {
-      $subject = test_input($_POST["subject"]);
-     $email = test_input($_POST["emailadres"]);
-     $contact_message = test_input($_POST["bericht"]);
+    $subject = test_input($_POST["subject"]);
+    $email = test_input($_POST["emailadres"]);
+    $contact_message = test_input($_POST["bericht"]);
     $to = 'info@designosource.be';
     $message = $contact_message;
     $headers = "From: $email";
