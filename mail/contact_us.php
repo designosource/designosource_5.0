@@ -3,7 +3,7 @@
 //ini_set("display_errors", 1);
 
 // Check for empty fields
-if(empty($_POST['subject'])  		||
+/*if(empty($_POST['subject'])  		||
    empty($_POST['emailadres']) 		||
    empty($_POST['bericht'])	||
    !filter_var($_POST['emailadres'],FILTER_VALIDATE_EMAIL))
@@ -26,7 +26,29 @@ $headers = "From: noreply@designosource.com\n"; // This is the email address the
 mail($to,$email_subject,$email_body,$headers);
 return true;		
 
-print_r($headers);
+//print_r($headers);
 
 echo "<script>window.location = 'http://www.designosource.be'</script>";
+?>*/
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//if(!empty($_POST['subject'])) {
+      $subject = test_input($_POST["subject"]);
+     $email = test_input($_POST["emailadres"]);
+     $contact_message = test_input($_POST["bericht"]);
+    $to = 'info@designosource.be';
+    $message = $contact_message;
+    $headers = "From: $email";
+    mail($to, $subject, $message, $headers);
+    header('Location: http://designosource.be');
+    //echo "<script>window.location = 'http://www.designosource.be'</script>";
+    exit;
+}
+else {
+    header('Location: http://designosource.be');
+}
+
 ?>
+
+
