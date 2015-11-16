@@ -57,7 +57,7 @@
 
 	<!--Top Scripts-->
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script async="" src="//www.google-analytics.com/analytics.js"></script>
+	<script async="" src="http://www.google-analytics.com/analytics.js"></script>
 	<script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -400,7 +400,7 @@
 			<h2 id="Contact">Contacteer ons</h2>
 			<div class="line"></div>
 
-			<form method="post" action="mail/contact_us.php" name="sentMessage" id="contactForm">
+			<form method="" action="" name="sentMessage" id="contactForm">
 
 				<div id="radios">
 					<input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
@@ -409,9 +409,10 @@
 				</div>
 				
 				<div id="writingarea">
-					<textarea name="bericht" id="bericht" cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
-					<input type="text" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
-					<input type="submit" name="btnbericht" id="btnbericht" value="verzenden">
+					<textarea name="bericht" id="bericht" value="" cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
+					<input type="text" value="" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
+					
+					<button type="button" id="btnbericht">verzenden</button>
 				</div>
 			</form>
 
@@ -449,7 +450,6 @@
 	</div>
 	<!--Bot scripts-->
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="js/jquery-form.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/werkwijze.js"></script>
 	<script src="js/team.js"></script>
