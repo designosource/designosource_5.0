@@ -1,6 +1,6 @@
 .bg_fixed{
     position: fixed;
-    width: 100%;
+    width: 120%;
     height: 100%;
     z-index: -999;
     background-repeat: no-repeat;
@@ -15,10 +15,33 @@
 		background-color: transparent;
 		background-repeat: no-repeat;
 		background-position: cover;
-        a:link,
-        a:visited,
-        a:hover,
-        a:active{
+        
+        #gotosite:link,
+        #gotosite:visited,
+        #gotosite:hover,
+        #gotosite:active{
+            width: 40px;
+            text-decoration: none;
+            margin: 0 auto;
+            font-family: $font1;
+            color: white;
+            font-size: 1rem;
+            height: 100px;
+            display: block;
+            span{
+                background-image: url(../../images/dot.svg);
+                background-repeat: no-repeat;
+                width: 2px;
+                height: 2px;
+                display: block;
+                margin: 2px auto;
+            }
+        }
+        
+        #tm_logo:link,
+        #tm_logo:visited,
+        #tm_logo:hover,
+        #tm_logo:active{
             width: 101px;
             height: 54px;
             position: fixed;
@@ -570,7 +593,7 @@
 	}
 }
 
-@media(min-width: 400px) {
+@media(min-width: 401px) {
 	.container {
         .landing{
             height: 210vh

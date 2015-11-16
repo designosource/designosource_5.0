@@ -17,7 +17,6 @@ opscherm();
         var middenH = screenheightC - eiHalf;
         $("#eitje").css("left",midden);
         $("#eitje").css("top",middenH);
-        console.log(middenH);
         parallaxcube();
     }
 
@@ -34,10 +33,10 @@ opscherm();
                 required: true
             },
             highlight: function (element) {
-                $(element).parent().addClass('error')
+                $(element).parent().addClass('error');
             },
             unhighlight: function (element) {
-                $(element).parent().removeClass('error')
+                $(element).parent().removeClass('error');
             },
             submitHandler: function(form) {
              /*var data = $('#contactForm').serialize();   
