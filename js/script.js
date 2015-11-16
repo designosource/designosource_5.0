@@ -141,6 +141,7 @@ function parallaxcube(){
  var stuk13 = document.getElementById('stuk13');
  var stuk14 = document.getElementById('stuk14');
  var eitje = document.getElementById('eitje');
+ var bg_scroll = document.getElementById("bg_fixed");
  
  var scrolltop = window.scrollY; // get number of pixels document has scrolled vertically
 
@@ -187,6 +188,7 @@ function parallaxcube(){
  var stuk14left;
  var stuk14opacity;
  var eitjetop;
+ var bgtop;
     
 
  stuk1top = -200 + (scrolltop * 0.3 );
@@ -244,7 +246,7 @@ function parallaxcube(){
  stuk14top = 200 + (scrolltop * -0.3 );
  stuk14left = 400 + (scrolltop * -0.6 );
  stuk14opacity = 0.6 + (scrolltop * 0.002);
-console.log(scrolltop); 
+
  if(stuk1top > 1 ){
  	stuk1top = 0;
  	stuk1left = 0; //1
@@ -360,20 +362,16 @@ console.log(scrolltop);
         var containerH = $(".landing")[0].offsetHeight;
     console.log(middenH);
     if(scrolltop > containerH /2){
-        //$("#eitje").css("top",  766 - scrolltop +"px");
-        
         eitjetop = middenH + (containerH /2) + (scrolltop * -1 );
+        $("#tm_logo").css("opacity","0");
+        $("#tm_logo").css("z-index","-1");
     } else {
-        /*var eiH = $("#eitje")[0].offsetHeight;
-        var eiHalf = eiH/2;
-        var wHight = $(window).height();
-        var screenheightC = wHight/2;
-        var middenH = screenheightC - eiHalf;*/
         eitjetop = middenH;
-        //$("#eitje").css("top", middenH);
-        //$("#eitje").css("position","fixed");
+        $("#tm_logo").css("opacity","1");
+        $("#tm_logo").css("z-index","1");
     }
      
+     bg_scroll.style.top = eitjetop - middenH + "px";
      eitje.style.top = eitjetop + "px";
      stuk1.style.top = stuk1top + '%';
      stuk1.style.left = stuk1left + '%'; //1

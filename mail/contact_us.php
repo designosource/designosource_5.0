@@ -27,27 +27,6 @@ mail($to,$email_subject,$email_body,$headers);
 //return true;		
 
 //print_r($headers);
-
-//echo "<script>window.location = 'http://www.designosource.be'</script>";
-
-/*
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//if(!empty($_POST['subject'])) {
-      $subject = test_input($_POST["subject"]);
-     $email = test_input($_POST["emailadres"]);
-     $contact_message = test_input($_POST["bericht"]);
-    $to = 'info@designosource.be';
-    $message = $contact_message;
-    $headers = "From: $email";
-    mail($to, $subject, $message, $headers);
-    header('Location: http://designosource.be');
-    //echo "<script>window.location = 'http://www.designosource.be'</script>";
-    exit;
-}
-else {
-    header('Location: http://designosource.be');
-}
-*/
 ?>
 
 
