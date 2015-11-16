@@ -1,8 +1,32 @@
 footer{
 
 	/*mobile*/
-	
-	background-color: #0c2334;
+
+	.error {
+	    background-color: #ff5a5a;
+
+	}
+
+	/* .error::-webkit-input-placeholder { 
+	    color:    #FFF;
+	}
+	.error::-moz-placeholder { 
+	   color:    #FFF;
+	   opacity:  1;
+	}
+	.error::-moz-placeholder { 
+	   color:    #FFF;
+	   opacity:  1;
+	}
+	.error::-ms-input-placeholder { 
+	   color:    #FFF;
+	}*/
+
+	label.error {
+	  display: none !important;
+	}
+
+	background-color: $color1;
 	padding: 50px 40px 0px 40px;
 	color: white;
 	font-size: 1rem;

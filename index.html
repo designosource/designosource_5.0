@@ -1,13 +1,77 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<title>Designosource git</title>
+	<!--Meta-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Architects of the web, wij bij Designosource creëren uw web product van morgen.">
+	<meta name="author" content="Designosource">
+	<meta name="keywords" content="Designosource, Mechelen, agency, web, design, development, mobile, applications, applicatie">
+	<meta name="geo.position" content="51.0249969, 4.4846669,17">
+	<meta name="geo.placename" content="Mechelen, Belgium">
+	<meta name="geo.region" content="be-an">
+	<meta name="ICBM" content="51.0249969, 4.4846669,17">
+	<meta name="DC.Title" content="Designosource">
+	<meta name="DC.Creator" content="Designosource">
+	<meta name="DC.Subject" content="portfolio">
+	<meta name="DC.Description" content="Architects of the web, wij bij Designosource creëren uw web product van morgen.">
+	<meta name="DC.Publisher" content="Designosource">
+	<meta name="DC.Contributor" content="Designosource">
+	<meta name="DC.Date" content="2015-11-16">
+	<meta name="DC.Type" content="Text">
+	<meta name="DC.Format" content="html">
+	<meta name="DC.Source" content="Designosource">
+	<meta name="DC.Language" content="nl">
+	<meta name="DC.Relation" content="designosource.be">
+	<meta name="DC.Coverage" content="2015+">
+	<meta name="DC.Rights" content="Copyright 2015-2016">
+
+	<!-- Tags FB-->
+	<meta property="og:locale" content="nl_NL">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Designosource">
+	<meta property="og:description" content="Architects of the web">
+	<meta property="og:url" content="http://www.designosource.be">
+	<meta property="og:site_name" content="Designosource">
+	<meta property="article:publisher" content="http://www.facebook.com/Designosource">
+	<meta property="og:image" content="http://designosource.be/images/BG_SEO.png">
+
+	<!-- Tags TW-->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:description" content="Architects of the web">
+	<meta name="twitter:title" content="Designosource">
+	<meta name="twitter:site" content="@designosource">
+	<meta name="twitter:domain" content="Designosource">
+	<meta name="twitter:image:src" content="http://designosource.be/images/BG_SEO.png">
+	<meta name="twitter:creator" content="@designosource">
+
+	<!-- Links-->
+	<link rel="canonical" href="http://www.designosource.be">`
+	<link rel="pingback" href="http://www.designosource.be/xmlrpc.php">
+
+	<!--CSS-->
 	<link rel="stylesheet" href="sass/css/reset.css">
 	<link rel="stylesheet" href="sass/css/style.css">
-
-	<script src="js/jquery-2.1.4.min.js"></script>
 	<link rel="stylesheet" href="sass/scss/modules/fonts/webfonts/stylesheet.css">
+
+	<!--Top Scripts-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script>
+	<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-45928778-1', 'auto');
+          ga('send', 'pageview');
+    </script>
+	
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
 
@@ -207,10 +271,10 @@
 			<h2 id="Contact">Contacteer ons</h2>
 			<div class="line"></div>
 
-			<form action="post">
+			<form method="post" action="mail/contact_us.php" name="sentMessage" id="contactForm">
 
 				<div id="radios">
-					<input type="radio" name="subject" value="contact"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
+					<input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
 					<input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>	
 					<input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>	
 				</div>
@@ -255,7 +319,10 @@
 
 	</div>
 
-	<script src="//http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!--Bot scripts-->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<script src="js/jquery-form.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/werkwijze.js"></script>
 	<script src="js/team.js"></script>
