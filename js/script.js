@@ -33,10 +33,10 @@ opscherm();
                 required: true
             },
             highlight: function (element) {
-                $(element).parent().addClass('error')
+                $(element).parent().addClass('error');
             },
             unhighlight: function (element) {
-                $(element).parent().removeClass('error')
+                $(element).parent().removeClass('error');
             },
             submitHandler: function(form) {
                 $(element).ajaxSubmit();
