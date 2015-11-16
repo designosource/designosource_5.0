@@ -3,7 +3,7 @@
   display: table;
   clear: both; }
 
-.first_quote p, .first_quote-line, .second_quote p, .second_quote-line {
+.first_quote p, .first_quote-line, .second_quote p, .second_quote-line, .projecten .grid {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -823,6 +823,24 @@ header {
     background-color: white;
     width: 120px;
     margin-top: 15px; }
+
+.projecten {
+  margin-bottom: 50px; }
+  .projecten .grid {
+    width: 94%;
+    font-size: 2rem; }
+    .projecten .grid .grid-item {
+      width: 290px;
+      height: 300px;
+      background-color: red;
+      margin-right: 10px;
+      margin-top: 10px; }
+    .projecten .grid .grid-item--width2 {
+      width: 590px;
+      height: 200px;
+      background-color: blue;
+      margin-right: 10px;
+      margin-top: 10px; }
 
 .teamcont {
   padding: 0 40px;

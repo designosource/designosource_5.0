@@ -31,3 +31,44 @@
 		@extend %center;
 	}
 }
+
+.projecten {
+
+	margin-bottom: 50px;
+
+	.grid {
+
+		@extend %center;
+		width: 94%;
+		font-size: 2rem;
+
+		.grid-item { 
+			width: 290px; 
+			height: 300px;
+			background-color: red;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+
+		.grid-item--width2 { 
+			width: 590px; 
+			height: 200px;
+			background-color: blue;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
