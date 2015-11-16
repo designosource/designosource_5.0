@@ -28,7 +28,7 @@ mail($to,$email_subject,$email_body,$headers);
 
 //print_r($headers);
 
-echo "<script>window.location = 'http://www.designosource.be'</script>";
+//echo "<script>window.location = 'http://www.designosource.be'</script>";
 
 /*
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
