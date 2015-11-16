@@ -73,9 +73,12 @@ body {
     padding: 10px 0px 10px 30px;
     background-repeat: no-repeat; }
   body nav .navigation {
-    width: 35%;
+    width: 50%;
     margin-right: 30px;
     margin-top: -30px; } }
+@media (min-width: 1024px) {
+  body nav .navigation {
+    width: 35%; } }
 .container .landing {
   height: 200vh;
   width: 100%;

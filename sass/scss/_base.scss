@@ -89,10 +89,27 @@ body {
 			}
 
 			.navigation {
-				width: 35%;
+				width: 50%;
 				margin-right: 30px;
 				margin-top: -30px;
 			}
 		}
 	}
 }
+
+@media(min-width: $desktop) {
+	body {
+		nav {
+			.navigation {
+				width: 35%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
