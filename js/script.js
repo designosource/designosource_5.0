@@ -19,7 +19,8 @@ opscherm();
         $("#eitje").css("top",middenH);
         console.log(middenH);
         parallaxcube();
-    }  
+    }
+
 
     //form validation met plugin
 
@@ -57,7 +58,7 @@ opscherm();
     //$("#contactForm").ajaxForm({url: 'mail/contact_us.php', type: 'post'});
 
     //form validation zonder plugin
-    $("#btnbericht").click(function() {
+    /*$("#btnbericht").click(function() {
 
         var email = $('#emailadres').val();
         var subject = $("input:radio[name=subject]").val();
@@ -115,7 +116,7 @@ opscherm();
         if(is_email){input.removeClass("error");}
         else{input.addClass("error");} 
     });
-
+*/
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
