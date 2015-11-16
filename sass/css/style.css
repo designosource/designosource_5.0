@@ -79,15 +79,6 @@ body {
 @media (min-width: 1024px) {
   body nav .navigation {
     width: 35%; } }
-.container .landing {
-  height: 200vh;
-  width: 100%;
-  background-image: url(../../images/bg_probeer-01.svg);
-  background-color: #08131d;
-  background-repeat: no-repeat;
-  background-position: cover;
-  background-color: #081925;
-  z-index: -1; }
 .bg_fixed {
   position: fixed;
   width: 100%;
@@ -99,6 +90,10 @@ body {
 .container .landing {
   height: 100vh;
   width: 100%;
+  background-image: url(../../images/bg_probeer-01.svg);
+  background-color: #08131d;
+  background-repeat: no-repeat;
+  background-position: cover;
   z-index: -1;
   background-color: #08131d; }
   .container .landing a:link,
@@ -827,8 +822,7 @@ header {
 .projecten {
   margin-bottom: 50px; }
   .projecten .grid {
-    width: 94%;
-    font-size: 2rem; }
+    width: 94%; }
     .projecten .grid .grid-item {
       width: 290px;
       height: 300px;
@@ -842,6 +836,124 @@ header {
       margin-right: 10px;
       margin-top: 10px; }
 
+/*PROBEREUU*/
+section.projecten {
+  /* Common style */
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  /* Individual effects */
+  /*---------------*/
+  /***** Sadie *****/
+  /*---------------*/ }
+  section.projecten *, section.projecten *:after, section.projecten *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  section.projecten .clearfix:before, section.projecten .clearfix:after {
+    display: table;
+    content: ''; }
+  section.projecten .clearfix:after {
+    clear: both; }
+  section.projecten .grid div.effect-sadie {
+    position: relative;
+    overflow: hidden;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer; }
+  section.projecten .grid div.effect-sadie img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8; }
+  section.projecten .grid div.effect-sadie figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  section.projecten .grid div.effect-sadie figcaption::before,
+  section.projecten .grid div.effect-sadie figcaption::after {
+    pointer-events: none; }
+  section.projecten .grid div.effect-sadie figcaption,
+  section.projecten .grid div.effect-sadie figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  section.projecten .grid div.effect-sadie figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0; }
+  section.projecten .grid div.effect-sadie h4 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+    font-size: 1.6rem; }
+  section.projecten .grid div.effect-sadie h4 span {
+    font-weight: 800; }
+  section.projecten .grid div.effect-sadie h4,
+  section.projecten .grid div.effect-sadie p {
+    margin: 0; }
+  section.projecten .grid div.effect-sadie p {
+    letter-spacing: 1px; }
+  section.projecten div.effect-sadie figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+    background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0); }
+  section.projecten div.effect-sadie h4 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #484c61;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0); }
+  section.projecten div.effect-sadie figcaption::before,
+  section.projecten div.effect-sadie p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s; }
+  section.projecten div.effect-sadie p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  section.projecten div.effect-sadie:hover h4 {
+    color: #fff;
+    -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+    transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0); }
+  section.projecten div.effect-sadie:hover figcaption::before,
+  section.projecten div.effect-sadie:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+
+@media screen and (max-width: 50em) {
+  .content {
+    padding: 0 10px;
+    text-align: center; }
+
+  .grid div.effect-sadie {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%; } }
 .teamcont {
   padding: 0 40px;
   width: auto; }
