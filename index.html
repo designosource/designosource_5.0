@@ -133,10 +133,10 @@
 			<h2>Contacteer ons</h2>
 			<div class="line"></div>
 
-			<form action="post">
+			<form method="post" action="mail/contact_us.php" name="sentMessage" id="contactForm">
 
 				<div id="radios">
-					<input type="radio" name="subject" value="contact"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
+					<input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
 					<input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>	
 					<input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>	
 				</div>
@@ -181,6 +181,7 @@
 
 	</div>
 	
+	<script src="js/jquery-form.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/werkwijze.js"></script>
 

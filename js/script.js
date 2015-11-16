@@ -18,6 +18,32 @@ $(document).ready(function() {
         var midden = screenhalf - eihalf;
         $("#eitje").css("left",midden);
     }  
+
+    //form validation
+
+    $('#contactForm').validate({
+        rules: {
+            emailadres: {
+                required: true,
+                email: true
+            },
+            bericht: {
+                required: true
+            },
+            highlight: function (element) {
+                $(element).parent().addClass('error')
+            },
+            unhighlight: function (element) {
+                $(element).parent().removeClass('error')
+            },
+            submitHandler: function(form) {
+                $(element).ajaxSubmit();
+            }
+        }
+    });
+    //http://code.runnable.com/UkmCKF6ekb0tAAC-/how-to-use-jquery-validation-custom-messages-and-placement
+    //end form validation
+
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
