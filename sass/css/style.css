@@ -96,13 +96,6 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: cover; }
-    .container .landing #landing_auto {
-      width: 20px;
-      height: 20px;
-      top: 100%;
-      background-color: aquamarine;
-      display: inline-block;
-      position: absolute; }
     .container .landing #gotosite:link,
     .container .landing #gotosite:visited,
     .container .landing #gotosite:hover,

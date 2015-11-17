@@ -20,7 +20,7 @@ opscherm();
         console.log(middenH);
         parallaxcube();
     }  
-
+    
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
@@ -94,11 +94,6 @@ function parallaxcube(){
  var stuk14opacity;
  var eitjetop;
  var bgtop;
- var screen = $(".container")[0].offsetWidth;
-    console.log(screen);
- if(screen > 640){
-     scrolltop = 1;
- }
     
  stuk1top = -200 + (scrolltop * 0.3 );
  stuk1left = -300 + (scrolltop * 0.45 );
