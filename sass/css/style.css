@@ -81,7 +81,7 @@ body {
     width: 35%; } }
 .bg_fixed {
   position: fixed;
-  width: 100%;
+  width: 120%;
   height: 100%;
   z-index: -999;
   background-repeat: no-repeat;
@@ -103,10 +103,32 @@ body {
       background-color: aquamarine;
       display: inline-block;
       position: absolute; }
-    .container .landing a:link,
-    .container .landing a:visited,
-    .container .landing a:hover,
-    .container .landing a:active {
+    .container .landing #gotosite:link,
+    .container .landing #gotosite:visited,
+    .container .landing #gotosite:hover,
+    .container .landing #gotosite:active {
+      width: 40px;
+      text-decoration: none;
+      margin: 0 auto;
+      font-family: Didot-Italic;
+      color: white;
+      font-size: 1rem;
+      height: 100px;
+      display: block; }
+      .container .landing #gotosite:link span,
+      .container .landing #gotosite:visited span,
+      .container .landing #gotosite:hover span,
+      .container .landing #gotosite:active span {
+        background-image: url(../../images/dot.svg);
+        background-repeat: no-repeat;
+        width: 2px;
+        height: 2px;
+        display: block;
+        margin: 2px auto; }
+    .container .landing #tm_logo:link,
+    .container .landing #tm_logo:visited,
+    .container .landing #tm_logo:hover,
+    .container .landing #tm_logo:active {
       width: 101px;
       height: 54px;
       position: fixed;
@@ -1151,6 +1173,7 @@ footer {
     color: black;
     font-style: italic; }
   footer #btnbericht {
+    text-align: center;
     width: 100%;
     height: 40px;
     border: 0;

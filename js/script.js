@@ -20,6 +20,7 @@ opscherm();
         console.log(middenH);
         parallaxcube();
     }  
+
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
