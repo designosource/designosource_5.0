@@ -79,14 +79,56 @@ body {
 @media (min-width: 1024px) {
   body nav .navigation {
     width: 35%; } }
+body {
+  overflow: hidden; }
+
 .bg_fixed {
   position: fixed;
-  width: 120%;
+  width: 100%;
   height: 100%;
-  z-index: -999;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../../images/bg_probeer-01.svg); }
+  .bg_fixed .wrapper_link {
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    text-align: center;
+    width: 100%; }
+    .bg_fixed .wrapper_link #tm_logo:link,
+    .bg_fixed .wrapper_link #tm_logo:visited,
+    .bg_fixed .wrapper_link #tm_logo:hover,
+    .bg_fixed .wrapper_link #tm_logo:active {
+      width: 101px;
+      height: 54px;
+      position: absolute;
+      display: block;
+      top: -15px;
+      right: 40px;
+      background-image: url("../../images/TM_logo_oranje_web.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: all 0.3s; }
+    .bg_fixed .wrapper_link #gotosite:link,
+    .bg_fixed .wrapper_link #gotosite:visited,
+    .bg_fixed .wrapper_link #gotosite:hover,
+    .bg_fixed .wrapper_link #gotosite:active {
+      text-align: center;
+      text-decoration: none;
+      font-family: Didot-Italic;
+      color: white;
+      font-size: 1rem;
+      height: 40px; }
+      .bg_fixed .wrapper_link #gotosite:link span,
+      .bg_fixed .wrapper_link #gotosite:visited span,
+      .bg_fixed .wrapper_link #gotosite:hover span,
+      .bg_fixed .wrapper_link #gotosite:active span {
+        background-image: url(../../images/dot.svg);
+        background-repeat: no-repeat;
+        width: 2px;
+        height: 2px;
+        display: block;
+        margin: 2px auto; }
 
 .container {
   z-index: 999; }
@@ -96,42 +138,6 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: cover; }
-    .container .landing #gotosite:link,
-    .container .landing #gotosite:visited,
-    .container .landing #gotosite:hover,
-    .container .landing #gotosite:active {
-      width: 40px;
-      text-decoration: none;
-      margin: 0 auto;
-      font-family: Didot-Italic;
-      color: white;
-      font-size: 1rem;
-      height: 100px;
-      display: block; }
-      .container .landing #gotosite:link span,
-      .container .landing #gotosite:visited span,
-      .container .landing #gotosite:hover span,
-      .container .landing #gotosite:active span {
-        background-image: url(../../images/dot.svg);
-        background-repeat: no-repeat;
-        width: 2px;
-        height: 2px;
-        display: block;
-        margin: 2px auto; }
-    .container .landing #tm_logo:link,
-    .container .landing #tm_logo:visited,
-    .container .landing #tm_logo:hover,
-    .container .landing #tm_logo:active {
-      width: 101px;
-      height: 54px;
-      position: fixed;
-      right: 20px;
-      bottom: 20px;
-      z-index: 1;
-      background-image: url("../../images/TM_logo_oranje_web.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: all 0.3s; }
     .container .landing .container-stukken {
       position: fixed;
       top: 160px;
