@@ -96,6 +96,13 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: cover; }
+    .container .landing #landing_auto {
+      width: 20px;
+      height: 20px;
+      top: 100%;
+      background-color: aquamarine;
+      display: inline-block;
+      position: absolute; }
     .container .landing a:link,
     .container .landing a:visited,
     .container .landing a:hover,
@@ -604,7 +611,7 @@ body {
         position: absolute;
         transition: 0.1s; }
 
-@media (min-width: 400px) {
+@media (min-width: 640px) {
   .container .landing {
     height: 210vh; } }
 header {

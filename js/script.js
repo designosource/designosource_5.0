@@ -20,32 +20,6 @@ opscherm();
         console.log(middenH);
         parallaxcube();
     }  
-
-    //form validation
-
-    $('#contactForm').validate({
-        rules: {
-            emailadres: {
-                required: true,
-                email: true
-            },
-            bericht: {
-                required: true
-            },
-            highlight: function (element) {
-                $(element).parent().addClass('error')
-            },
-            unhighlight: function (element) {
-                $(element).parent().removeClass('error')
-            },
-            submitHandler: function(form) {
-                $(element).ajaxSubmit();
-            }
-        }
-    });
-    //http://code.runnable.com/UkmCKF6ekb0tAAC-/how-to-use-jquery-validation-custom-messages-and-placement
-    //end form validation
-
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
@@ -74,7 +48,7 @@ function parallaxcube(){
  var bg_scroll = document.getElementById("bg_fixed");
  
  var scrolltop = window.scrollY; // get number of pixels document has scrolled vertically
-
+ 
  var stuk1top;
  var stuk1left;
  var stuk1opacity;
@@ -119,8 +93,12 @@ function parallaxcube(){
  var stuk14opacity;
  var eitjetop;
  var bgtop;
+ var screen = $(".container")[0].offsetWidth;
+    console.log(screen);
+ if(screen > 640){
+     scrolltop = 1;
+ }
     
-
  stuk1top = -200 + (scrolltop * 0.3 );
  stuk1left = -300 + (scrolltop * 0.45 );
  stuk1opacity = 0.5 + (scrolltop * 0.002);
@@ -252,7 +230,6 @@ function parallaxcube(){
  }
  else if (stuk1top < 1)
  {
-    //$(".eiAchtergrond").animate({ opacity: 0 }, 0 );
     $("#dot1").removeClass("animation fadeIn1");
     $("#dot2").removeClass("animation fadeIn2");
     $("#dot3").removeClass("animation fadeIn3");
