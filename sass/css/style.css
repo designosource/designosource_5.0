@@ -637,12 +637,11 @@ header {
     font-size: 2rem;
     width: 30%;
     padding-left: 50px;
-    float: left;
-    padding-top: 40px; }
+    float: left; }
   header p {
     clear: both;
     font-family: source_sans_prolight;
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
     font-size: 1rem;
     line-height: 21px; }
 
@@ -1090,6 +1089,7 @@ section.projecten {
   position: relative; }
 
 .teamlist > li {
+  background-color: red;
   display: inline-block;
   background-size: 100%;
   background-position: center;
