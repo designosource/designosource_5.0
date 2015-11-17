@@ -18,23 +18,7 @@
         display: block;
         text-align: center;
         width: 100%;
-        
-        
-        #tm_logo:link,
-        #tm_logo:visited,
-        #tm_logo:hover,
-        #tm_logo:active{
-            width: 101px;
-            height: 54px;
-            position: absolute;
-            display: block;
-            top:-15px;
-            right: 40px;
-            background-image: url("../../images/TM_logo_oranje_web.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            transition: all 0.3s ;
-        }
+
         #gotosite:link,
         #gotosite:visited,
         #gotosite:hover,
@@ -54,6 +38,32 @@
                 margin: 2px auto;
             }
         }
+        
+        #tm_logo:link,
+        #tm_logo:visited,
+        #tm_logo:hover,
+        #tm_logo:active{
+            width: 101px;
+            height: 54px;
+            position: absolute;
+            display: block;
+            top:-15px;
+            right: 40px;
+            background-image: url("../../images/TM_logo_oranje_web.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: all 0.3s ;
+        }
+    }
+}
+.container{
+    z-index: 999;
+	.landing{
+		height: 100vh;
+		width: 100%;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-position: cover;
     }
 }
 
