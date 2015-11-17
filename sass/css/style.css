@@ -79,9 +79,6 @@ body {
 @media (min-width: 1024px) {
   body nav .navigation {
     width: 35%; } }
-body {
-  overflow: hidden; }
-
 .bg_fixed {
   position: fixed;
   width: 100%;
@@ -109,26 +106,6 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       transition: all 0.3s; }
-    .bg_fixed .wrapper_link #gotosite:link,
-    .bg_fixed .wrapper_link #gotosite:visited,
-    .bg_fixed .wrapper_link #gotosite:hover,
-    .bg_fixed .wrapper_link #gotosite:active {
-      text-align: center;
-      text-decoration: none;
-      font-family: Didot-Italic;
-      color: white;
-      font-size: 1rem;
-      height: 40px; }
-      .bg_fixed .wrapper_link #gotosite:link span,
-      .bg_fixed .wrapper_link #gotosite:visited span,
-      .bg_fixed .wrapper_link #gotosite:hover span,
-      .bg_fixed .wrapper_link #gotosite:active span {
-        background-image: url(../../images/dot.svg);
-        background-repeat: no-repeat;
-        width: 2px;
-        height: 2px;
-        display: block;
-        margin: 2px auto; }
 
 .container {
   z-index: 999; }
@@ -138,6 +115,26 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: cover; }
+    .container .landing #gotosite:link,
+    .container .landing #gotosite:visited,
+    .container .landing #gotosite:hover,
+    .container .landing #gotosite:active {
+      text-align: center;
+      text-decoration: none;
+      font-family: Didot-Italic;
+      color: white;
+      font-size: 1rem;
+      height: 40px; }
+      .container .landing #gotosite:link span,
+      .container .landing #gotosite:visited span,
+      .container .landing #gotosite:hover span,
+      .container .landing #gotosite:active span {
+        background-image: url(../../images/dot.svg);
+        background-repeat: no-repeat;
+        width: 2px;
+        height: 2px;
+        display: block;
+        margin: 2px auto; }
     .container .landing .container-stukken {
       position: fixed;
       top: 160px;
