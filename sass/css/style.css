@@ -762,13 +762,14 @@ header {
 .stapwoorden div {
   float: none;
   display: inline-block;
-  height: 1px;
-  width: 1px;
   transition: all 0.3s ease;
   color: black;
   font-size: 12px;
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  width: auto;
+  /*	background-color: green;*/
+  /*	text-align: center;*/ }
 
 .stapwoorden:after {
   content: '';
