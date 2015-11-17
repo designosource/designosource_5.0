@@ -1,20 +1,25 @@
-body{
-    overflow: hidden;
-}
 .bg_fixed{
     position: fixed;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../images/bg_probeer-01.svg);
-    
-    .wrapper_link{
-            position: absolute;
-            bottom: 40px;
-            display: block;
-            text-align: center;
-            width: 100%;
+    background-image: url(../../images/bg_probeer-01.svg);        
+}
+
+.bg-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    .link-wrapper{
+        position: absolute;
+        bottom: 40px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        
+        
         #tm_logo:link,
         #tm_logo:visited,
         #tm_logo:hover,
@@ -50,10 +55,10 @@ body{
             }
         }
     }
-        
 }
+
 .container{
-    z-index: 999;
+    //z-index: 10;
 	.landing{
 		height: 100vh;
 		width: 100%;
