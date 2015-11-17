@@ -1,0 +1,54 @@
+.portfolio-modal{
+	height: 100%;
+	width: 100%;
+	display: none;
+	background-color: #f0f0f0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+    right: -100%;
+    transition: all 0.3 ease;
+
+	.modal-container{
+
+		padding: 40px;
+
+		h3{
+			font-size: 25px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}	
+		h4{
+			font-weight: bold;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		p{
+			margin-bottom: 10px;
+		}
+		img{
+			margin-top: 20px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		.modal-close{
+			font-size: 200%;
+			color: red;
+		}
+
+		.modal-left, .modal-right{
+			font-size: 200%;
+			color: grey;
+		}
+
+
+	}
+}
+
+.project-animation
+{
+    margin-right: 100%;
+}
