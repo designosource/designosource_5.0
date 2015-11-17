@@ -15,6 +15,7 @@
 	position: relative;
 }
 .teamlist>li{
+	background-color: white;
 	display: inline-block;
 	background-size: 100%;
 	background-position: center;
@@ -64,13 +65,13 @@
 }
 .name{
 	font-family: $font2;
-	font-size: 28px;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 }
 .job{
 	line-height: 18px;
-	font-family: "Didot";
-	font-size: 14px;
+	font-family: $font1;
+	font-size: 0.8rem;
 }
 .team_sm{
 	display: block;
@@ -103,46 +104,46 @@
 
 /*teamfoto's*/
 .ande{
-	background-image: url("../../images/team/ande.jpg");
+	background-image: url("../../images/team/ande.jpeg");
 }
 .david{
-	background-image: url("../../images/team/david.jpg");
+	background-image: url("../../images/team/david.jpeg");
 }
 .glenn{
-	background-image: url("../../images/team/glenn.jpg");
+	background-image: url("../../images/team/glenn.jpeg");
 }
 .ian{
-	background-image: url("../../images/team/ian.jpg");
+	background-image: url("../../images/team/ian.jpeg");
 }
 .jasper{
-	background-image: url("../../images/team/jasper.jpg");
+	background-image: url("../../images/team/jasper.jpeg");
 }
 .marijn{
-	background-image: url("../../images/team/marijn.jpg");
+	background-image: url("../../images/team/marijn.jpeg");
 }
 .nadine{
-	background-image: url("../../images/team/nadine.jpg");
+	background-image: url("../../images/team/nadine.jpeg");
 }
 .nick{
-	background-image: url("../../images/team/nick.jpg");
+	background-image: url("../../images/team/nick.jpeg");
 }
 .robby{
-	background-image: url("../../images/team/robby.jpg");
+	background-image: url("../../images/team/robby.jpeg");
 }
 .sara{
-	background-image: url("../../images/team/sara.jpg");
+	background-image: url("../../images/team/sara.jpeg");
 }
 .thais{
-	background-image: url("../../images/team/thais2.jpg");
+	background-image: url("../../images/team/thais.jpeg");
 }
 .tom{
-	background-image: url("../../images/team/tom.jpg");
+	background-image: url("../../images/team/tom.jpeg");
 }
 .twix{
-	background-image: url("../../images/team/twix.jpg");
+	background-image: url("../../images/team/twix.jpeg");
 }
 .veerle{
-	background-image: url("../../images/team/veerle.jpg");
+	background-image: url("../../images/team/veerle.jpeg");
 }
 
 /*mediaqueries*/
