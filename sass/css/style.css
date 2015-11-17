@@ -1139,13 +1139,13 @@ section.projecten {
 
 .name {
   font-family: AlteDIN1451Mittelschrift-Regular;
-  font-size: 28px;
+  font-size: 1.2rem;
   text-transform: uppercase; }
 
 .job {
   line-height: 18px;
-  font-family: "Didot";
-  font-size: 14px; }
+  font-family: Didot-Italic;
+  font-size: 0.8rem; }
 
 .team_sm {
   display: block;
