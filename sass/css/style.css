@@ -1382,7 +1382,7 @@ footer {
     display: none; }
   @media (min-width: 801px) {
     footer {
-      height: 630px;
+      height: 580px;
       background-position: right bottom;
       background-size: 500px; }
       footer textarea {
