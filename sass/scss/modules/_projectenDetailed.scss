@@ -1,0 +1,110 @@
+.portfolio-modal{
+
+	.modal-content{
+	height: 100%;
+	width: 100%;
+	background-color: #f0f0f0;
+
+	/*overflow hidden en fixed gaan niet samen
+	FIND SOLUTION!*/
+
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	font-size: 20px;
+
+		.modal-container{padding: 40px;}
+
+		h3{
+			font-size: 30px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			width: 80%;
+		}	
+		h4{
+			font-weight: bold;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			width: 80%;
+		}
+		p{
+			margin-bottom: 10px;
+			width: 80%;
+		}
+		img{
+			margin-top: 20px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		.modal-close{
+			font-size: 200%;
+			color: red;
+		}
+
+		.close{
+			width   : 20px;
+			height: 20px;
+			background  : none;
+			font-size   : 16px;
+			color   : #fff;
+			border  : 0px;
+			margin      : 0px;
+			padding     : 0px;
+			background-image: url("../../images/close_modal.png");
+			background-size: 20px 20px;
+			float:right;
+			margin-top: 11px;
+		}
+
+		.modal-text{
+			width: 80%;
+		}
+
+		.modal-image{
+			max-width: 100%;
+			max-height: 350px;;
+    		height: auto;
+		}
+
+		.modal-web-link, .modal-web-pdf{
+			width: 40px;
+			height: 40px;
+			background-image: url("../../images/web_icon.svg");
+			display: inline-block;
+			background-size: 40px 40px;
+			background-repeat: no-repeat;
+			margin-top: 20px;
+		}
+
+		.modal-web-pdf{
+			background-image: url("../../images/pdf_icon.png");
+			margin-left: 30px;
+		}
+	}
+}
+
+.fade.in {
+    //opacity: 1;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+}
+
+.fade {
+    /*opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;*/
+
+    margin-left: -100%;
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
