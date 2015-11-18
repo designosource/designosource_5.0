@@ -8,7 +8,9 @@
 	/*overflow hidden en fixed gaan niet samen
 	FIND SOLUTION!*/
 
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	
 	position: fixed;
 	top: 0;
 	z-index: 9999;
