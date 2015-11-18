@@ -266,12 +266,17 @@ function parallaxcube(){
     console.log(middenH);
     if(scrolltop > containerH /2){
         eitjetop = middenH + (containerH /2) + (scrolltop * -1 );
-        $("#tm_logo").css("opacity","0");
-        $("#tm_logo").css("z-index","-1");
+        $("#link-wrapper").css("opacity","0");
+        $("#link-wrapper").css("z-index","-1");
+        /*$("#gotosite").css("opacity","0");
+        $("#gotosite").css("z-index","-1");*/
+        
     } else {
         eitjetop = middenH;
-        $("#tm_logo").css("opacity","1");
-        $("#tm_logo").css("z-index","1");
+        $("#link-wrapper").css("opacity","1");
+        $("#link-wrapper").css("z-index","1");
+        /*$("#gotosite").css("opacity","1");
+        $("#gotosite").css("z-index","1");*/
     }
      
      bg_scroll.style.top = eitjetop - middenH + "px";

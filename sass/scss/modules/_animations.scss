@@ -18,7 +18,7 @@
         display: block;
         text-align: center;
         width: 100%;
-
+        transition: all 0.3s ;
         #gotosite:link,
         #gotosite:visited,
         #gotosite:hover,
@@ -52,7 +52,6 @@
             background-image: url("../../images/TM_logo_oranje_web.png");
             background-repeat: no-repeat;
             background-size: cover;
-            transition: all 0.3s ;
         }
     }
 }
