@@ -953,15 +953,15 @@ header {
   .projecten .grid {
     width: 94%; }
     .projecten .grid .grid-item {
-      width: 100%;
-      height: 300px;
+      width: 43vw;
+      height: 43vw;
       background-color: red;
       margin-right: 10px;
       margin-top: 10px; }
     .projecten .grid .grid-item--width2 {
-      width: 100%;
-      height: 200px;
-      background-color: blue;
+      width: 43vw;
+      height: 43vw;
+      background-color: red;
       margin-right: 10px;
       margin-top: 10px; }
 
@@ -1084,11 +1084,25 @@ section.projecten {
     margin: 10px auto;
     width: 100%; } }
 @media (min-width: 768px) {
-  section.projecten .grid .grid-item {
-    width: 30%; }
+  .projecten .grid .grid-item {
+    width: 27vw;
+    height: 27vw;
+    display: inline-block; }
 
-  section.projecten .grid .grid-item--width2 {
-    width: 60.75%; } }
+  .projecten .grid .grid-item--width2 {
+    width: 27vw;
+    height: 27vw;
+    display: inline-block; } }
+@media (min-width: 1024px) {
+  .projecten .grid .grid-item {
+    width: 22vw;
+    height: 22vw;
+    display: inline-block; }
+
+  .projecten .grid .grid-item--width2 {
+    width: 22vw;
+    height: 22vw;
+    display: inline-block; } }
 .team {
   padding-top: 60px;
   max-width: 1200px;
