@@ -651,9 +651,14 @@ header {
   header p {
     clear: both;
     font-family: source_sans_prolight;
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 20px 40px;
     font-size: 1rem;
-    line-height: 21px; }
+    line-height: 1.6rem; }
+  header img {
+    width: 150px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px; }
 
 .first_quote {
   width: 100%;
