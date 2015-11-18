@@ -18,8 +18,7 @@ opscherm();
         $("#eitje").css("left",midden);
         $("#eitje").css("top",middenH);
         parallaxcube();
-    }  
-    
+    }   
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
