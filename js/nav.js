@@ -1,7 +1,8 @@
 (function($) {          
     $(document).ready(function(){                    
-        $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 1300) {
+        $(window).scroll(function(){
+            var P_header = $("header").position().top;
+            if ($(this).scrollTop() > P_header - 100) {
                 $('#menu').fadeIn(500);
             } else {
                 $('#menu').fadeOut(500);

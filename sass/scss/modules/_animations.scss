@@ -49,7 +49,7 @@
             display: block;
             top:-15px;
             right: 40px;
-            background-image: url("../../images/TM_logo_oranje_web.png");
+            background-image: url("../../images/TM_logo_trans_web.png");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -63,8 +63,6 @@
 		width: 100%;
         margin-bottom: 100vh;
 		background-color: transparent;
-		background-repeat: no-repeat;
-		background-position: cover;
         position: relative;
         .container-stukken{
 			position:fixed;
@@ -125,13 +123,13 @@
                 animation-name: fadeIn3;
             }
             
-            @-webkit-keyframes fadeIn{
+            @-webkit-keyframes fadeIn3{
                 0%{opacity: 0}
                 20% {opacity: 0;}
                 50% {opacity: 1;}
                 100% {opacity: 1;} 
             } 
-            @keyframes fadeIn{ 
+            @keyframes fadeIn3{ 
                 0%{opacity: 0}
                 20% {opacity: 0;}
                 50% {opacity: 1;}
