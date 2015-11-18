@@ -1517,6 +1517,16 @@ footer {
   .portfolio-modal .modal-content .modal-web-pdf {
     background-image: url("../../images/pdf_icon.png");
     margin-left: 30px; }
+  .portfolio-modal .modal-content .modal-prev, .portfolio-modal .modal-content .modal-next {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../../images/prev_item.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 23px 40px; }
+  .portfolio-modal .modal-content .modal-next {
+    background-image: url("../../images/next_item.png"); }
 
 .fade.in {
   position: relative;

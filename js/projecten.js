@@ -26,5 +26,4 @@ $(document).ready(function(){
     $(".modal-close").click(function(){
         $("body").removeClass( "overflowclick" );
     });
-
 });
