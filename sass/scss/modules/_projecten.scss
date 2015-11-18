@@ -68,6 +68,8 @@
 
 section.projecten {
 
+	clear: both;
+
 	*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 	.clearfix:before, .clearfix:after { display: table; content: ''; }
 	.clearfix:after { clear: both; }
@@ -125,7 +127,7 @@ section.projecten {
 	.grid div.effect-sadie h4 {
 		word-spacing: -0.15em;
 		font-weight: 300;
-		font-size: 1.6rem;
+		font-size: 1rem;
 	}
 
 	.grid div.effect-sadie h4 span {
@@ -140,10 +142,6 @@ section.projecten {
 	.grid div.effect-sadie p {
 		letter-spacing: 1px;
 		// font-size: 68.5%;
-	}
-
-	.grid-item{
-		
 	}
 
 	/* Individual effects */
@@ -210,6 +208,13 @@ section.projecten {
 		transform: translate3d(0,0,0);
 	}
 
+	div.effect-sadie .nohover:hover figcaption::before ,
+	div.effect-sadie .nohover:hover p {
+		opacity: 1;
+		// -webkit-transform: translate3d(0,0,0);
+		// transform: translate3d(0,0,0);
+	}
+
 }
 
 @media screen and (max-width: 50em) {
@@ -239,6 +244,11 @@ section.projecten {
     	height: 27vw;
     	display: inline-block;
 	}
+
+	section.projecten .grid div.effect-sadie h4 {
+		font-size: 1.2rem;
+	}
+	
 }
 
 
@@ -254,6 +264,11 @@ section.projecten {
     	height: 22vw;
     	display: inline-block;
 	}
+
+	section.projecten .grid div.effect-sadie h4 {
+		font-size: 1.6rem;
+	}
+
 }
 
 
