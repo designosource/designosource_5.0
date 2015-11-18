@@ -97,7 +97,8 @@ body {
     bottom: 40px;
     display: block;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    transition: all 0.3s; }
     .bg-wrapper .link-wrapper #gotosite:link,
     .bg-wrapper .link-wrapper #gotosite:visited,
     .bg-wrapper .link-wrapper #gotosite:hover,
@@ -130,8 +131,7 @@ body {
       right: 40px;
       background-image: url("../../images/TM_logo_oranje_web.png");
       background-repeat: no-repeat;
-      background-size: cover;
-      transition: all 0.3s; }
+      background-size: cover; }
 
 .container {
   z-index: 999; }
