@@ -1479,8 +1479,6 @@ footer {
     width: 80%; }
   .portfolio-modal .modal-content img {
     margin-top: 20px; }
-  .portfolio-modal .modal-content img:last-of-type {
-    display: none; }
   .portfolio-modal .modal-content a {
     text-decoration: none;
     color: black; }
