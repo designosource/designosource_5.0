@@ -17,10 +17,16 @@ header {
 	p {
 		clear: both;
 		font-family: $font3;
-		padding: 0px 40px 40px 40px;
+		padding: 0px 40px 20px 40px;
 		font-size: 1rem;
-		line-height: 21px;
+		line-height: 1.6rem;
 	}
+    img{
+        width: 150px;
+        padding-left: 50px;
+        padding-bottom: 40px;
+        padding-right: 50px;
+    }
 }
 
 .first_quote {
@@ -67,21 +73,13 @@ header {
 
 @media(min-width: $tablet) {
 	header {
-		// height: 250px;
-
 		.left {
 			float: left;
-			// background-color: blue;
 			width: 40%;
-
-			h1 {
-				// width: 25%;
-			}
 		}
 
 		.right {
 			float: left;
-			// background-color: red;
 			width: 57%;
 			margin-right: 3%;
 		}
