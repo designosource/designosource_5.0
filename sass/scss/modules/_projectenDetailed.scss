@@ -35,6 +35,9 @@
 		img{
 			margin-top: 20px;
 		}
+        img:last-of-type{
+			display: none;
+		}
 		a{
 			text-decoration: none;
 			color: black;
@@ -107,4 +110,17 @@
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
+
+@media(min-width: $phone) {
+        .portfolio-modal{
+            .modal-content{
+                img{
+                    margin-top:0px;
+                }
+            }
+        }
+        .wrapper_project_image{
+        }
+	}
+
 

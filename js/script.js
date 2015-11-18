@@ -17,7 +17,6 @@ opscherm();
         var middenH = screenheightC - eiHalf;
         $("#eitje").css("left",midden);
         $("#eitje").css("top",middenH);
-        console.log(middenH);
         parallaxcube();
     }  
     
@@ -263,18 +262,17 @@ function parallaxcube(){
         var screenheightC = wHight/2;
         var middenH = screenheightC - eiHalf;
         var containerH = $(".landing")[0].offsetHeight;
-    console.log(middenH);
     if(scrolltop > containerH /2){
         eitjetop = middenH + (containerH /2) + (scrolltop * -1 );
-        $("#link-wrapper").css("opacity","0");
-        $("#link-wrapper").css("z-index","-1");
+        $(".bg-wrapper").css("opacity","0");
+        $(".bg-wrapper").css("z-index","-1");
         /*$("#gotosite").css("opacity","0");
         $("#gotosite").css("z-index","-1");*/
         
     } else {
         eitjetop = middenH;
-        $("#link-wrapper").css("opacity","1");
-        $("#link-wrapper").css("z-index","1");
+        $(".bg-wrapper").css("opacity","1");
+        $(".bg-wrapper").css("z-index","1");
         /*$("#gotosite").css("opacity","1");
         $("#gotosite").css("z-index","1");*/
     }

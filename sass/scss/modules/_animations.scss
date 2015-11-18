@@ -12,13 +12,13 @@
     width: 100%;
     height: 100%;
     z-index: 20;
+    transition: all 0.3s ;
     .link-wrapper{
         position: absolute;
         bottom: 40px;
         display: block;
         text-align: center;
         width: 100%;
-        transition: all 0.3s ;
         #gotosite:link,
         #gotosite:visited,
         #gotosite:hover,
