@@ -1013,7 +1013,7 @@ section.projecten {
   section.projecten .grid div.effect-sadie h4 {
     word-spacing: -0.15em;
     font-weight: 300;
-    font-size: 1.6rem; }
+    font-size: 1rem; }
   section.projecten .grid div.effect-sadie h4 span {
     font-weight: 800; }
   section.projecten .grid div.effect-sadie h4,
@@ -1067,6 +1067,9 @@ section.projecten {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
+  section.projecten div.effect-sadie .nohover:hover figcaption::before,
+  section.projecten div.effect-sadie .nohover:hover p {
+    opacity: 1; }
 
 @media screen and (max-width: 50em) {
   .content {
@@ -1087,7 +1090,10 @@ section.projecten {
   .projecten .grid .grid-item--width2 {
     width: 27vw;
     height: 27vw;
-    display: inline-block; } }
+    display: inline-block; }
+
+  section.projecten .grid div.effect-sadie h4 {
+    font-size: 1.2rem; } }
 @media (min-width: 1024px) {
   .projecten .grid .grid-item {
     width: 22vw;
@@ -1097,7 +1103,10 @@ section.projecten {
   .projecten .grid .grid-item--width2 {
     width: 22vw;
     height: 22vw;
-    display: inline-block; } }
+    display: inline-block; }
+
+  section.projecten .grid div.effect-sadie h4 {
+    font-size: 1.6rem; } }
 .team {
   padding-top: 60px;
   max-width: 1200px;
