@@ -844,10 +844,7 @@ header {
 .watwedoencont {
   margin-left: auto;
   margin-right: auto;
-<<<<<<< HEAD
-=======
   max-width: 1200px;
->>>>>>> work
   width: 100%; }
 
 /*WERKWIJZE MOBILE*/
@@ -1104,10 +1101,7 @@ section.projecten {
     display: inline-block; } }
 .team {
   padding-top: 60px;
-<<<<<<< HEAD
-=======
   max-width: 1200px;
->>>>>>> work
   width: 100%;
   margin: auto;
   background-color: white; }
@@ -1276,7 +1270,6 @@ footer {
      color:    #FFF;
   }*/
   background-color: #081925;
-  padding: 50px 40px 0px 40px;
   color: white;
   font-size: 1rem;
   background-image: url("../../images/contactform_bg.svg"), none;
@@ -1470,7 +1463,8 @@ footer {
 
 .footercont {
   max-width: 1200px;
-  margin: auto; }
+  margin: auto;
+  padding: 50px 40px 0px 40px; }
 
 footer {
   width: 100%; }
