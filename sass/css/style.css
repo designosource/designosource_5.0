@@ -169,161 +169,161 @@ body {
       -webkit-animation-name: fadeIn1;
       animation-name: fadeIn1; }
 @-webkit-keyframes fadeIn1 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  20% {
+  .container .landing .container-stukken 20%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn1 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  20% {
+  .container .landing .container-stukken 20%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn2 {
       -webkit-animation-name: fadeIn2;
       animation-name: fadeIn2; }
 @-webkit-keyframes fadeIn2 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  10% {
+  .container .landing .container-stukken 10%  {
     opacity: 0; }
-  30% {
+  .container .landing .container-stukken 30%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn2 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  10% {
+  .container .landing .container-stukken 10%  {
     opacity: 0; }
-  30% {
+  .container .landing .container-stukken 30%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn3 {
       -webkit-animation-name: fadeIn3;
       animation-name: fadeIn3; }
 @-webkit-keyframes fadeIn3 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  20% {
+  .container .landing .container-stukken 20%  {
     opacity: 0; }
-  50% {
+  .container .landing .container-stukken 50%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn3 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  20% {
+  .container .landing .container-stukken 20%  {
     opacity: 0; }
-  50% {
+  .container .landing .container-stukken 50%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn4 {
       -webkit-animation-name: fadeIn4;
       animation-name: fadeIn4; }
 @-webkit-keyframes fadeIn4 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  30% {
+  .container .landing .container-stukken 30%  {
     opacity: 0; }
-  60% {
+  .container .landing .container-stukken 60%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn4 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  30% {
+  .container .landing .container-stukken 30%  {
     opacity: 0; }
-  60% {
+  .container .landing .container-stukken 60%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn5 {
       -webkit-animation-name: fadeIn5;
       animation-name: fadeIn5; }
 @-webkit-keyframes fadeIn5 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  40% {
+  .container .landing .container-stukken 40%  {
     opacity: 0; }
-  70% {
+  .container .landing .container-stukken 70%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn5 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  40% {
+  .container .landing .container-stukken 40%  {
     opacity: 0; }
-  70% {
+  .container .landing .container-stukken 70%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn6 {
       -webkit-animation-name: fadeIn6;
       animation-name: fadeIn6; }
 @-webkit-keyframes fadeIn6 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  50% {
+  .container .landing .container-stukken 50%  {
     opacity: 0; }
-  80% {
+  .container .landing .container-stukken 80%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn6 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  50% {
+  .container .landing .container-stukken 50%  {
     opacity: 0; }
-  80% {
+  .container .landing .container-stukken 80%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn7 {
       -webkit-animation-name: fadeIn7;
       animation-name: fadeIn7; }
 @-webkit-keyframes fadeIn7 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  60% {
+  .container .landing .container-stukken 60%  {
     opacity: 0; }
-  90% {
+  .container .landing .container-stukken 90%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn7 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  60% {
+  .container .landing .container-stukken 60%  {
     opacity: 0; }
-  90% {
+  .container .landing .container-stukken 90%  {
     opacity: 1; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .fadeIn8 {
       -webkit-animation-name: fadeIn8;
       animation-name: fadeIn8; }
 @-webkit-keyframes fadeIn8 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  70% {
+  .container .landing .container-stukken 70%  {
     opacity: 0; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
 @keyframes fadeIn8 {
-  0% {
+  .container .landing .container-stukken 0%  {
     opacity: 0; }
-  70% {
+  .container .landing .container-stukken 70%  {
     opacity: 0; }
-  100% {
+  .container .landing .container-stukken 100%  {
     opacity: 1; } }
     .container .landing .container-stukken .dot {
       width: 9px;
@@ -953,15 +953,15 @@ header {
   .projecten .grid {
     width: 94%; }
     .projecten .grid .grid-item {
-      width: 100%;
-      height: 300px;
+      width: 43vw;
+      height: 43vw;
       background-color: red;
       margin-right: 10px;
       margin-top: 10px; }
     .projecten .grid .grid-item--width2 {
-      width: 100%;
-      height: 200px;
-      background-color: blue;
+      width: 43vw;
+      height: 43vw;
+      background-color: red;
       margin-right: 10px;
       margin-top: 10px; }
 
@@ -1084,11 +1084,25 @@ section.projecten {
     margin: 10px auto;
     width: 100%; } }
 @media (min-width: 768px) {
-  section.projecten .grid .grid-item {
-    width: 30%; }
+  .projecten .grid .grid-item {
+    width: 27vw;
+    height: 27vw;
+    display: inline-block; }
 
-  section.projecten .grid .grid-item--width2 {
-    width: 60.75%; } }
+  .projecten .grid .grid-item--width2 {
+    width: 27vw;
+    height: 27vw;
+    display: inline-block; } }
+@media (min-width: 1024px) {
+  .projecten .grid .grid-item {
+    width: 22vw;
+    height: 22vw;
+    display: inline-block; }
+
+  .projecten .grid .grid-item--width2 {
+    width: 22vw;
+    height: 22vw;
+    display: inline-block; } }
 .team {
   padding-top: 60px;
   max-width: 1200px;
@@ -1515,6 +1529,16 @@ footer {
   .portfolio-modal .modal-content .modal-web-pdf {
     background-image: url("../../images/pdf_icon.png");
     margin-left: 30px; }
+  .portfolio-modal .modal-content .modal-prev, .portfolio-modal .modal-content .modal-next {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../../images/prev_item.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 23px 40px; }
+  .portfolio-modal .modal-content .modal-next {
+    background-image: url("../../images/next_item.png"); }
 
 .fade.in {
   position: relative;
@@ -1533,8 +1557,9 @@ footer {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
+.overflowclick {
+  overflow: hidden; }
+
 @media (min-width: 640px) {
   .portfolio-modal .modal-content img {
     margin-top: 0px; } }
-
-/*# sourceMappingURL=style.css.map */

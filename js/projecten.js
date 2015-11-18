@@ -17,3 +17,13 @@ var msnry = new Masonry( elem, {
 var msnry = new Masonry( '.grid', {
   // options
 });
+
+$(document).ready(function(){
+    $(".modalBTN").click(function(){
+        $("body").addClass( "overflowclick" );
+    });
+
+    $(".modal-close").click(function(){
+        $("body").removeClass( "overflowclick" );
+    });
+});

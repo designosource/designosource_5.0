@@ -84,6 +84,20 @@
 			background-image: url("../../images/pdf_icon.png");
 			margin-left: 30px;
 		}
+
+		.modal-prev, .modal-next{
+			margin-left: 30px;
+			width: 40px;
+			height: 40px;
+			background-image: url("../../images/prev_item.png");
+			display: inline-block;
+			background-repeat: no-repeat;
+			background-size: 23px 40px;
+		}
+
+		.modal-next{
+			background-image: url("../../images/next_item.png");	
+		}
 	}
 }
 
@@ -106,6 +120,10 @@
 	-o-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+}
+
+.overflowclick{
+	overflow: hidden;
 }
 
 @media(min-width: $phone) {
