@@ -643,7 +643,6 @@ header {
   header .left h1 {
     font-family: Didot-Italic;
     font-size: 2rem;
-    width: 30%;
     padding-left: 50px;
     float: left; }
   header p {
@@ -714,6 +713,7 @@ header {
 
 /*BOLLEN*/
 .watwedoen-werkwijze {
+  height: 30px;
   margin: auto;
   /*	width: 70%;*/
   width: 80%;
@@ -812,7 +812,7 @@ header {
   font-size: 1rem;
   padding-bottom: 10px;
   padding: 0px 40px 0 80px;
-  min-height: 60px;
+  min-height: 95px;
   line-height: 20px; }
 
 .watwedoen {
@@ -840,7 +840,7 @@ header {
 .watwedoencont {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px; }
+  width: 100%; }
 
 /*WERKWIJZE MOBILE*/
 .watwedoen_m {
@@ -1096,7 +1096,7 @@ section.projecten {
     display: inline-block; } }
 .team {
   padding-top: 60px;
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
   background-color: white; }
 
@@ -1462,7 +1462,8 @@ footer {
   background-color: #f0f0f0;
   /*overflow hidden en fixed gaan niet samen
   FIND SOLUTION!*/
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: fixed;
   top: 0;
   z-index: 9999;
