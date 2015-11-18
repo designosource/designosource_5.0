@@ -59,8 +59,9 @@
 .container{
     height:auto;
 	.landing{
-		height: 100vh;
+		height: 0vh;
 		width: 100%;
+        margin-bottom: 100vh;
 		background-color: transparent;
 		background-repeat: no-repeat;
 		background-position: cover;
@@ -610,6 +611,7 @@
 	.container {
         .landing{
             height: 210vh;
+            margin-bottom: 0;
         }
 	}
 }

@@ -6,7 +6,7 @@ opscherm();
         var ei = $("#eitje")[0].offsetWidth;
         var eiH = $("#eitje")[0].offsetHeight;
         var eiHalf = eiH/2;
-        var screen = $(".container")[0].offsetWidth;
+        var screen = $(".landing")[0].offsetWidth;
         var wHight = $(window).height();
         var screenheightC = wHight/2;
         var screenhalf;
@@ -92,7 +92,7 @@ function parallaxcube(){
  var stuk14opacity;
  var eitjetop;
  var bgtop;
- var screen = $(".container")[0].offsetWidth;
+ var screen = $(".landing")[0].offsetWidth;
  stuk1top = -200 + (scrolltop * 0.3 );
  stuk1left = -300 + (scrolltop * 0.45 );
  stuk1opacity = 0.5 + (scrolltop * 0.002);

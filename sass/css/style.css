@@ -136,8 +136,9 @@ body {
 .container {
   height: auto; }
   .container .landing {
-    height: 100vh;
+    height: 0vh;
     width: 100%;
+    margin-bottom: 100vh;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: cover;
@@ -638,7 +639,8 @@ body {
 
 @media (min-width: 768px) {
   .container .landing {
-    height: 210vh; } }
+    height: 210vh;
+    margin-bottom: 0; } }
 header {
   width: 100%;
   padding: 20px 0px; }
