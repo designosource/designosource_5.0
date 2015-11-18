@@ -55,16 +55,6 @@
         }
     }
 }
-.container{
-    z-index: 999;
-	.landing{
-		height: 100vh;
-		width: 100%;
-		background-color: transparent;
-		background-repeat: no-repeat;
-		background-position: cover;
-    }
-}
 
 .container{
     //z-index: 10;
@@ -74,7 +64,7 @@
 		background-color: transparent;
 		background-repeat: no-repeat;
 		background-position: cover;
-        //position: relative;
+        position: relative;
         .container-stukken{
 			position:fixed;
             top: 160px;
@@ -616,7 +606,7 @@
 }
 
 
-@media(min-width: $phone) {
+@media(min-width: $tablet) {
 	.container {
         .landing{
             height: 210vh

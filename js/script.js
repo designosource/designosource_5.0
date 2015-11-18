@@ -27,7 +27,6 @@ window.requestAnimationFrame = window.requestAnimationFrame
  || window.webkitRequestAnimationFrame
  || window.msRequestAnimationFrame
  || function(f){setTimeout(f, 1000/60)};
- 
 
 function parallaxcube(){
  var stuk1 = document.getElementById('stuk1');
@@ -93,6 +92,7 @@ function parallaxcube(){
  var stuk14opacity;
  var eitjetop;
  var bgtop;
+ var screen = $(".container")[0].offsetWidth;
     
  stuk1top = -200 + (scrolltop * 0.3 );
  stuk1left = -300 + (scrolltop * 0.45 );
@@ -149,7 +149,11 @@ function parallaxcube(){
  stuk14top = 200 + (scrolltop * -0.3 );
  stuk14left = 400 + (scrolltop * -0.6 );
  stuk14opacity = 0.6 + (scrolltop * 0.002);
-
+    
+ if(screen < 769){
+    stuk1top = 2;
+ }
+    
  if(stuk1top > 1 ){
  	stuk1top = 0;
  	stuk1left = 0; //1
@@ -265,18 +269,12 @@ function parallaxcube(){
     if(scrolltop > containerH /2){
         eitjetop = middenH + (containerH /2) + (scrolltop * -1 );
         $(".bg-wrapper").css("opacity","0");
-        $(".bg-wrapper").css("z-index","-1");
-        /*$("#gotosite").css("opacity","0");
-        $("#gotosite").css("z-index","-1");*/
-        
+        $(".bg-wrapper").css("z-index","-1");       
     } else {
         eitjetop = middenH;
         $(".bg-wrapper").css("opacity","1");
         $(".bg-wrapper").css("z-index","1");
-        /*$("#gotosite").css("opacity","1");
-        $("#gotosite").css("z-index","1");*/
     }
-     
      bg_scroll.style.top = eitjetop - middenH + "px";
      eitje.style.top = eitjetop + "px";
      stuk1.style.top = stuk1top + '%';
