@@ -1359,19 +1359,19 @@ section.projecten {
     width: 14.28%; } }
 div#contactnav {
   width: 100%;
-  background-color: #081925; }
+  background-image: url("../../images/contactform_bg.svg"), none;
+  background-color: #081925;
+  repeat: none;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%; }
 
 footer {
   /*mobile*/
-  background-color: #081925;
   max-width: 1200px;
   width: 100%;
   color: white;
   font-size: 1rem;
-  background-image: url("../../images/contactform_bg.svg"), none;
-  repeat: none;
-  background-repeat: no-repeat;
-  background-position: center bottom;
   /*placeholder styling*/ }
   footer .error {
     background-color: #ff5a5a; }

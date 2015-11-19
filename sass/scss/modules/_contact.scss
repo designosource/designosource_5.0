@@ -1,23 +1,26 @@
 div#contactnav { 
 	width: 100%;
+
+
+	background-image: url('../../images/contactform_bg.svg'), none;
 	background-color: $color1;
+	repeat: none;
+	background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
 }
 
 footer{
 
 	/*mobile*/
 
-	background-color: $color1;
+	// background-color: $color1;
 	max-width: 1200px;
 	width: 100%;
 	@extend %center;
 
 	color: white;
 	font-size: 1rem;
-	background-image: url('../../images/contactform_bg.svg'), none;
-	repeat: none;
-	background-repeat: no-repeat;
-    background-position: center bottom;
 
 
 	.error {
