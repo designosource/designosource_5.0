@@ -34,7 +34,7 @@
 
 .projecten {
 
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 
 	.grid {
 
@@ -73,7 +73,8 @@ section.projecten {
 	max-width: 1200px;
 	width: 100%;
 	clear: both;
-	@extend %center;	
+	@extend %center;
+	padding-top: 60px;	
 
 	*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 	.clearfix:before, .clearfix:after { display: table; content: ''; }

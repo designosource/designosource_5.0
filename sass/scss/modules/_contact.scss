@@ -1,32 +1,16 @@
+div#contactnav { 
+	width: 100%;
+	background-color: $color1;
+}
+
 footer{
 
 	/*mobile*/
 
-	.error {
-	    background-color: #ff5a5a;
-
-	}
-
-	/* .error::-webkit-input-placeholder { 
-	    color:    #FFF;
-	}
-	.error::-moz-placeholder { 
-	   color:    #FFF;
-	   opacity:  1;
-	}
-	.error::-moz-placeholder { 
-	   color:    #FFF;
-	   opacity:  1;
-	}
-	.error::-ms-input-placeholder { 
-	   color:    #FFF;
-	}*/
-
-	label.error {
-	  display: none !important;
-	}
-
 	background-color: $color1;
+	max-width: 1200px;
+	width: 100%;
+	@extend %center;
 
 	color: white;
 	font-size: 1rem;
@@ -34,6 +18,16 @@ footer{
 	repeat: none;
 	background-repeat: no-repeat;
     background-position: center bottom;
+
+
+	.error {
+	    background-color: #ff5a5a;
+
+	}
+
+	label.error {
+	  display: none !important;
+	}
 
 	h2{
 		padding-left: 0px;
@@ -55,10 +49,6 @@ footer{
 		input{
 			margin-bottom: 15px;
 		}
-	}
-
-	#writingarea{
-
 	}
 
 	textarea{

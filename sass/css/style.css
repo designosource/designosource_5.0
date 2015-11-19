@@ -3,7 +3,7 @@
   display: table;
   clear: both; }
 
-.first_quote p, .first_quote-line, .second_quote p, .second_quote-line, .projecten .grid, section.projecten {
+header, .first_quote p, .first_quote-line, .second_quote p, .second_quote-line, .projecten .grid, section.projecten, footer {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -640,6 +640,7 @@ body {
     height: 210vh;
     margin-bottom: 0; } }
 header {
+  max-width: 1200px;
   width: 100%;
   padding: 40px 0px; }
   header .left h1 {
@@ -653,7 +654,7 @@ header {
     font-family: source_sans_prolight;
     padding: 0px 40px 20px 40px;
     font-size: 1rem;
-    line-height: 1.6rem; }
+    line-height: 1.4rem; }
   header img {
     width: 150px;
     padding-left: 50px;
@@ -697,7 +698,7 @@ header {
     margin-right: 3%;
     padding-bottom: 30px; }
   header img {
-    padding-top: 200px; } }
+    padding-top: 170px; } }
 /*PROCESLIJN*/
 .watwedoen {
   display: none;
@@ -830,7 +831,6 @@ header {
   line-height: 20px; }
 
 .watwedoen {
-  margin-bottom: 40px;
   float: left;
   height: auto; }
 
@@ -861,8 +861,7 @@ header {
 .watwedoen_m {
   display: inline-block;
   float: left;
-  padding: 30px 40px;
-  padding-bottom: 60px; }
+  padding: 30px 40px; }
 
 .watwedoen_m_cont {
   width: 100%;
@@ -956,7 +955,7 @@ header {
     margin-top: 15px; }
 
 .projecten {
-  margin-bottom: 50px; }
+  margin-bottom: 60px; }
   .projecten .grid {
     width: 100%;
     padding-left: 40px; }
@@ -977,6 +976,7 @@ section.projecten {
   max-width: 1200px;
   width: 100%;
   clear: both;
+  padding-top: 60px;
   /* Common style */
   /* Anchor will cover the whole item by default */
   /* For some effects it will show as a button */
@@ -1276,23 +1276,15 @@ section.projecten {
 @media (min-width: 1024px) {
   .teamlist > li {
     width: 14.28%; } }
+div#contactnav {
+  width: 100%;
+  background-color: #081925; }
+
 footer {
   /*mobile*/
-  /* .error::-webkit-input-placeholder { 
-      color:    #FFF;
-  }
-  .error::-moz-placeholder { 
-     color:    #FFF;
-     opacity:  1;
-  }
-  .error::-moz-placeholder { 
-     color:    #FFF;
-     opacity:  1;
-  }
-  .error::-ms-input-placeholder { 
-     color:    #FFF;
-  }*/
   background-color: #081925;
+  max-width: 1200px;
+  width: 100%;
   color: white;
   font-size: 1rem;
   background-image: url("../../images/contactform_bg.svg"), none;

@@ -96,9 +96,9 @@
 			<a id="logo" class="smoothScroll" href="#Home"><img src="#" alt="logo_homelink"></a>
 			<div class="navigation">
 				<a class="smoothScroll" href="#Home">Home</a>
-				<a class="smoothScroll" href="#Projecten">Projecten</a>
-				<a class="smoothScroll" href="#Team">Team</a>
-				<a class="smoothScroll" href="#Contact">Contact</a>
+				<a class="smoothScroll" href="#projectennav">Projecten</a>
+				<a class="smoothScroll" href="#teamnav">Team</a>
+				<a class="smoothScroll" href="#contactnav">Contact</a>
 			</div>
 		</nav>
 
@@ -258,7 +258,7 @@
 			</div>
 		</section>
 
-		<section class="projecten">
+		<section class="projecten" id="projectennav">
 
 			<h2 id="Projecten">Projecten</h2>
 			<div class="line"></div>
@@ -430,7 +430,7 @@
 			<div class="first_quote-line"></div>			
 		</section>
 
-		<section class="team">
+		<section class="team" id="teamnav">
 
 			<h2 id="Team">Het team</h2>
 			<div class="line"></div>
@@ -596,58 +596,59 @@
 			<br><br><br><br><br>
 			
 		</section>
+		<div id="contactnav">
+			<footer><div class="footercont">
 
-		<footer><div class="footercont">
+				<h2 id="Contact">Contacteer ons</h2>
+				<div class="line"></div>
 
-			<h2 id="Contact">Contacteer ons</h2>
-			<div class="line"></div>
+				<form name="sentMessage" id="contactForm">
 
-			<form name="sentMessage" id="contactForm">
-
-				<div id="radios">
-					<input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
-					<input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>	
-					<input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>	
-				</div>
-				
-				<div id="writingarea">
-					<textarea name="bericht" id="bericht"  cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
-					<input type="text" value="" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
+					<div id="radios">
+						<input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
+						<input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>	
+						<input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>	
+					</div>
 					
-					<button type="button" id="btnbericht">verzenden</button>
+					<div id="writingarea">
+						<textarea name="bericht" id="bericht"  cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
+						<input type="text" value="" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
+						
+						<button type="button" id="btnbericht">verzenden</button>
+					</div>
+				</form>
+
+				<ul id="socialMedia">
+					<li id="facebook">
+						<a target="_blank" href="https://www.facebook.com/Designosource">facebook</a>
+					</li>
+					<li id="twitter">
+						<a target="_blank" href="https://twitter.com/designosource">twitter</a>
+					</li>	
+					<li id="linkedIn">
+						<a target="_blank" href="https://www.linkedin.com/company/designosource">linkedIn</a>
+					</li>	
+				</ul>
+
+				<ul id="visitekaartje">
+					<li id="company">
+						<p>DESIGNOSOURCE</p>
+					</li>
+					<li id="address">
+						<p>Lange Ridderstraat 44<br>	
+							2800 Mechelen<br>
+							België<br>
+							Tel. +31 25 36 92 20</p>
+					</li>	
+					<li id="projectby">
+						<p>een project van</p>
+						<a href="" id="tmlogo">thomasmorelogo</a>
+						<a href="" id="tmlink">www.thomasmore.be</a>
+					</li>	
+				</ul>
 				</div>
-			</form>
-
-			<ul id="socialMedia">
-				<li id="facebook">
-					<a target="_blank" href="https://www.facebook.com/Designosource">facebook</a>
-				</li>
-				<li id="twitter">
-					<a target="_blank" href="https://twitter.com/designosource">twitter</a>
-				</li>	
-				<li id="linkedIn">
-					<a target="_blank" href="https://www.linkedin.com/company/designosource">linkedIn</a>
-				</li>	
-			</ul>
-
-			<ul id="visitekaartje">
-				<li id="company">
-					<p>DESIGNOSOURCE</p>
-				</li>
-				<li id="address">
-					<p>Lange Ridderstraat 44<br>	
-						2800 Mechelen<br>
-						België<br>
-						Tel. +31 25 36 92 20</p>
-				</li>	
-				<li id="projectby">
-					<p>een project van</p>
-					<a href="" id="tmlogo">thomasmorelogo</a>
-					<a href="" id="tmlink">www.thomasmore.be</a>
-				</li>	
-			</ul>
-
-		</div></footer>
+			</footer>
+		</div>
 
 	</div>
 
