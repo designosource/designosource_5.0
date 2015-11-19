@@ -259,14 +259,18 @@ section.projecten {
 
 @media(min-width: $desktop) {
 	.projecten .grid .grid-item {
-    	width: 24%;
-    	height: 24%;
+		width: 21vw;
+		max-width: 270px;
+		max-height: 270px;
+		height: 21vw;
     	display: inline-block;
     }	
 
     .projecten .grid .grid-item--width2 { 
-		width: 24%;
-    	height: 24%;
+		width: 21vw;
+		max-width: 270px;
+		max-height: 270px;
+		height: 21vw;
     	display: inline-block;
 	}
 

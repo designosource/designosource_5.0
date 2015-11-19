@@ -1188,13 +1188,17 @@ section.projecten {
     font-size: 1.2rem; } }
 @media (min-width: 1024px) {
   .projecten .grid .grid-item {
-    width: 24%;
-    height: 24%;
+    width: 21vw;
+    max-width: 270px;
+    max-height: 270px;
+    height: 21vw;
     display: inline-block; }
 
   .projecten .grid .grid-item--width2 {
-    width: 24%;
-    height: 24%;
+    width: 21vw;
+    max-width: 270px;
+    max-height: 270px;
+    height: 21vw;
     display: inline-block; }
 
   section.projecten .grid div.effect-sadie h4 {
