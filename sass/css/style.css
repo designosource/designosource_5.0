@@ -3,7 +3,7 @@
   display: table;
   clear: both; }
 
-.first_quote p, .first_quote-line, .second_quote p, .second_quote-line, .projecten .grid {
+.first_quote p, .first_quote-line, .second_quote p, .second_quote-line, .projecten .grid, section.projecten {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -162,161 +162,161 @@ body {
         -webkit-animation-name: fadeIn1;
         animation-name: fadeIn1; }
 @-webkit-keyframes fadeIn1 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 20%  {
+  20% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn1 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 20%  {
+  20% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn2 {
         -webkit-animation-name: fadeIn2;
         animation-name: fadeIn2; }
 @-webkit-keyframes fadeIn2 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 10%  {
+  10% {
     opacity: 0; }
-  .container .landing .container-stukken 30%  {
+  30% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn2 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 10%  {
+  10% {
     opacity: 0; }
-  .container .landing .container-stukken 30%  {
+  30% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn3 {
         -webkit-animation-name: fadeIn3;
         animation-name: fadeIn3; }
 @-webkit-keyframes fadeIn3 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 20%  {
+  20% {
     opacity: 0; }
-  .container .landing .container-stukken 50%  {
+  50% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn3 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 20%  {
+  20% {
     opacity: 0; }
-  .container .landing .container-stukken 50%  {
+  50% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn4 {
         -webkit-animation-name: fadeIn4;
         animation-name: fadeIn4; }
 @-webkit-keyframes fadeIn4 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 30%  {
+  30% {
     opacity: 0; }
-  .container .landing .container-stukken 60%  {
+  60% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn4 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 30%  {
+  30% {
     opacity: 0; }
-  .container .landing .container-stukken 60%  {
+  60% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn5 {
         -webkit-animation-name: fadeIn5;
         animation-name: fadeIn5; }
 @-webkit-keyframes fadeIn5 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 40%  {
+  40% {
     opacity: 0; }
-  .container .landing .container-stukken 70%  {
+  70% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn5 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 40%  {
+  40% {
     opacity: 0; }
-  .container .landing .container-stukken 70%  {
+  70% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn6 {
         -webkit-animation-name: fadeIn6;
         animation-name: fadeIn6; }
 @-webkit-keyframes fadeIn6 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 50%  {
+  50% {
     opacity: 0; }
-  .container .landing .container-stukken 80%  {
+  80% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn6 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 50%  {
+  50% {
     opacity: 0; }
-  .container .landing .container-stukken 80%  {
+  80% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn7 {
         -webkit-animation-name: fadeIn7;
         animation-name: fadeIn7; }
 @-webkit-keyframes fadeIn7 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 60%  {
+  60% {
     opacity: 0; }
-  .container .landing .container-stukken 90%  {
+  90% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn7 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 60%  {
+  60% {
     opacity: 0; }
-  .container .landing .container-stukken 90%  {
+  90% {
     opacity: 1; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .fadeIn8 {
         -webkit-animation-name: fadeIn8;
         animation-name: fadeIn8; }
 @-webkit-keyframes fadeIn8 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 70%  {
+  70% {
     opacity: 0; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
 @keyframes fadeIn8 {
-  .container .landing .container-stukken 0%  {
+  0% {
     opacity: 0; }
-  .container .landing .container-stukken 70%  {
+  70% {
     opacity: 0; }
-  .container .landing .container-stukken 100%  {
+  100% {
     opacity: 1; } }
       .container .landing .container-stukken .dot {
         width: 9px;
@@ -747,11 +747,11 @@ header {
 .binbol {
   float: none;
   background-color: black;
-  color: lightgrey;
+  color: white;
   display: block;
   text-align: center;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 12px;
   font-family: AlteDIN1451Mittelschrift-Regular;
   cursor: pointer; }
 
@@ -974,6 +974,9 @@ header {
 /*PROBEREUU*/
 section.projecten {
   clear: both;
+  max-width: 1200px;
+  width: 100%;
+  clear: both;
   /* Common style */
   /* Anchor will cover the whole item by default */
   /* For some effects it will show as a button */
@@ -1108,13 +1111,13 @@ section.projecten {
     font-size: 1.2rem; } }
 @media (min-width: 1024px) {
   .projecten .grid .grid-item {
-    width: 22.5vw;
-    height: 22.5vw;
+    width: 21vw;
+    height: 21vw;
     display: inline-block; }
 
   .projecten .grid .grid-item--width2 {
-    width: 22.5vw;
-    height: 22.5vw;
+    width: 21vw;
+    height: 21vw;
     display: inline-block; }
 
   section.projecten .grid div.effect-sadie h4 {
@@ -1616,3 +1619,5 @@ footer {
   .modal-text {
     width: 60%;
     margin: 0 auto; } }
+
+/*# sourceMappingURL=style.css.map */

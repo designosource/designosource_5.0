@@ -70,6 +70,10 @@
 section.projecten {
 
 	clear: both;
+	max-width: 1200px;
+	width: 100%;
+	clear: both;
+	@extend %center;	
 
 	*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 	.clearfix:before, .clearfix:after { display: table; content: ''; }
@@ -254,14 +258,14 @@ section.projecten {
 
 @media(min-width: $desktop) {
 	.projecten .grid .grid-item {
-    	width: 22.5vw;
-    	height: 22.5vw;
+    	width: 21vw;
+    	height: 21vw;
     	display: inline-block;
     }	
 
     .projecten .grid .grid-item--width2 { 
-		width: 22.5vw;
-    	height: 22.5vw;
+		width: 21vw;
+    	height: 21vw;
     	display: inline-block;
 	}
 
