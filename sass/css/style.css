@@ -1111,13 +1111,13 @@ section.projecten {
     font-size: 1.2rem; } }
 @media (min-width: 1024px) {
   .projecten .grid .grid-item {
-    width: 21vw;
-    height: 21vw;
+    width: 24%;
+    height: 24%;
     display: inline-block; }
 
   .projecten .grid .grid-item--width2 {
-    width: 21vw;
-    height: 21vw;
+    width: 24%;
+    height: 24%;
     display: inline-block; }
 
   section.projecten .grid div.effect-sadie h4 {
