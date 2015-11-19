@@ -112,7 +112,8 @@ body {
       font-family: Didot-Italic;
       color: white;
       font-size: 1rem;
-      height: 40px; }
+      height: 40px;
+      opacity: 0.7; }
       .bg-wrapper .link-wrapper #gotosite:link span,
       .bg-wrapper .link-wrapper #gotosite:visited span,
       .bg-wrapper .link-wrapper #gotosite:hover span,
