@@ -112,6 +112,7 @@ footer{
 		background-color: white;
 		margin-top: 25px;
 		text-transform: uppercase;
+		cursor: pointer;
 	}
 
 	#socialMedia{
@@ -159,12 +160,12 @@ footer{
 
 	ul#socialMedia li#twitter a{
 	  background-image: url('../../images/twitter.svg'), none;
-	  background-color: #3a589c;
+	  background-color: #20a8e2;
 	}
 
 	ul#socialMedia li#facebook a{
 	  background-image: url('../../images/facebook.svg'), none;
-	  background-color: #20a8e2;
+	  background-color: #3a589c;
 	}
 
 	ul#socialMedia li#linkedIn a{
