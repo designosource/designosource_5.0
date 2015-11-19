@@ -274,49 +274,124 @@ function parallaxcube(){
         $(".bg-wrapper").css("z-index","1");
     }
      bg_scroll.style.top = eitjetop - middenH + "px";
-     eitje.style.top = eitjetop + "px";
-     stuk1.style.top = stuk1top + '%';
+     /*eitje.style.top = eitjetop + "px";*/
+     eitje.style.transform = "translateY("+ eitjetop +"px)";
+     eitje.style.msTransform = "translateY("+ eitjetop +"px)";
+     eitje.style.WebkitTransform = "translateY("+ eitjetop +"px)";
+    
+     stuk1.style.transform ="translate("+ stuk1left +"%,"+ stuk1top +"%)";
+     stuk1.style.msTransform ="translate("+ stuk1left +"%,"+ stuk1top +"%)";
+     stuk1.style.WebkitTransform ="translate("+ stuk1left +"%,"+ stuk1top +"%)";
+     
+     stuk2.style.transform ="translate("+ stuk2left +"%,"+ stuk2top +"%)";
+     stuk2.style.msTransform ="translate("+ stuk2left +"%,"+ stuk2top +"%)";
+     stuk2.style.WebkitTransform ="translate("+ stuk2left +"%,"+ stuk2top +"%)";
+     
+    stuk3.style.transform ="translate("+ stuk3left +"%,"+ stuk3top +"%)";
+     stuk3.style.msTransform ="translate("+ stuk3left +"%,"+ stuk3top +"%)";
+     stuk3.style.WebkitTransform ="translate("+ stuk3left +"%,"+ stuk3top +"%)";
+    
+    stuk4.style.transform ="translate("+ stuk4left +"%,"+ stuk4top +"%)";
+     stuk4.style.msTransform ="translate("+ stuk4left +"%,"+ stuk4top +"%)";
+     stuk4.style.WebkitTransform ="translate("+ stuk4left +"%,"+ stuk4top +"%)";
+    
+    stuk5.style.transform ="translate("+ stuk5left +"%,"+ stuk5top +"%)";
+     stuk5.style.msTransform ="translate("+ stuk5left +"%,"+ stuk5top +"%)";
+     stuk5.style.WebkitTransform ="translate("+ stuk5left +"%,"+ stuk5top +"%)";
+    
+    stuk6.style.transform ="translate("+ stuk6left +"%,"+ stuk6top +"%)";
+     stuk6.style.msTransform ="translate("+ stuk6left +"%,"+ stuk6top +"%)";
+     stuk6.style.WebkitTransform ="translate("+ stuk6left +"%,"+ stuk6top +"%)";
+    
+    stuk7.style.transform ="translate("+ stuk7left +"%,"+ stuk7top +"%)";
+     stuk7.style.msTransform ="translate("+ stuk7left +"%,"+ stuk7top +"%)";
+     stuk7.style.WebkitTransform ="translate("+ stuk7left +"%,"+ stuk7top +"%)";
+    
+    stuk8.style.transform ="translate("+ stuk8left +"%,"+ stuk8top +"%)";
+     stuk8.style.msTransform ="translate("+ stuk8left +"%,"+ stuk8top +"%)";
+     stuk8.style.WebkitTransform ="translate("+ stuk8left +"%,"+ stuk8top +"%)";
+    
+    stuk9.style.transform ="translate("+ stuk9left +"%,"+ stuk9top +"%)";
+     stuk9.style.msTransform ="translate("+ stuk9left +"%,"+ stuk9top +"%)";;
+     stuk9.style.WebkitTransform ="translate("+ stuk9left +"%,"+ stuk9top +"%)";
+    
+    stuk10.style.transform ="translate("+ stuk10left +"%,"+ stuk10top +"%)";
+     stuk10.style.msTransform ="translate("+ stuk10left +"%,"+ stuk10top +"%)";
+     stuk10.style.WebkitTransform ="translate("+ stuk10left +"%,"+ stuk10top +"%)";
+    
+    stuk11.style.transform ="translate("+ stuk11left +"%,"+ stuk11top +"%)";
+     stuk11.style.msTransform ="translate("+ stuk11left +"%,"+ stuk11top +"%)";
+     stuk11.style.WebkitTransform ="translate("+ stuk11left +"%,"+ stuk11top +"%)";
+    
+    stuk12.style.transform ="translate("+ stuk12left +"%,"+ stuk12top +"%)";
+     stuk12.style.msTransform ="translate("+ stuk12left +"%,"+ stuk12top +"%)";
+     stuk12.style.WebkitTransform ="translate("+ stuk12left +"%,"+ stuk12top +"%)";
+    
+    stuk13.style.transform ="translate("+ stuk13left +"%,"+ stuk13top +"%)";
+     stuk13.style.msTransform ="translate("+ stuk13left +"%,"+ stuk13top +"%)";
+     stuk13.style.WebkitTransform ="translate("+ stuk13left +"%,"+ stuk13top +"%)";
+    
+    stuk14.style.transform ="translate("+ stuk14left +"%,"+ stuk14top +"%)";
+     stuk14.style.msTransform ="translate("+ stuk14left +"%,"+ stuk14top +"%)";
+     stuk14.style.WebkitTransform ="translate("+ stuk14left +"%,"+ stuk14top +"%)";
+    
+       stuk1.style.opacity = stuk1opacity;
+       stuk2.style.opacity = stuk2opacity;
+       stuk3.style.opacity = stuk3opacity;
+       stuk4.style.opacity = stuk4opacity;
+       stuk5.style.opacity = stuk5opacity;
+       stuk6.style.opacity = stuk6opacity;
+       stuk7.style.opacity = stuk7opacity;
+       stuk8.style.opacity = stuk8opacity;
+       stuk9.style.opacity = stuk9opacity;
+     stuk10.style.opacity = stuk10opacity;
+     stuk11.style.opacity = stuk11opacity;
+     stuk12.style.opacity = stuk12opacity;
+     stuk13.style.opacity = stuk13opacity;
+     stuk14.style.opacity = stuk14opacity;
+    
+     /*stuk1.style.top = stuk1top + '%';
      stuk1.style.left = stuk1left + '%'; //1
-     stuk1.style.opacity = stuk1opacity; 
+   
      stuk2.style.top = stuk2top + '%';
      stuk2.style.left = stuk2left + '%'; //2
-     stuk2.style.opacity = stuk2opacity;
+  
      stuk3.style.top = stuk3top + '%';
      stuk3.style.left = stuk3left + '%'; //3
-     stuk3.style.opacity = stuk3opacity;
+  
      stuk4.style.top = stuk4top + '%';
      stuk4.style.left = stuk4left + '%'; //4
-     stuk4.style.opacity = stuk4opacity;
+  
      stuk5.style.top = stuk5top + '%';
      stuk5.style.left = stuk5left + '%'; //5
-     stuk5.style.opacity = stuk5opacity;
+  
      stuk6.style.top = stuk6top + '%';
      stuk6.style.left = stuk6left + '%'; //6
-     stuk6.style.opacity = stuk6opacity;
+  
      stuk7.style.top = stuk7top + '%';
      stuk7.style.left = stuk7left + '%'; //7
-     stuk7.style.opacity = stuk7opacity;
+  
      stuk8.style.top = stuk8top + '%';
      stuk8.style.left = stuk8left + '%'; //8
-     stuk8.style.opacity = stuk8opacity;
+  
      stuk9.style.top = stuk9top + '%';
      stuk9.style.left = stuk9left + '%'; //9
-     stuk9.style.opacity = stuk9opacity;
+  
      stuk10.style.top = stuk10top + '%';
      stuk10.style.left = stuk10left + '%'; //10
-     stuk10.style.opacity = stuk10opacity;
+    
      stuk11.style.top = stuk11top + '%';
      stuk11.style.left = stuk11left + '%'; //11
-     stuk11.style.opacity = stuk11opacity;
+    
      stuk12.style.top = stuk12top + '%';
      stuk12.style.left = stuk12left + '%'; //12
-     stuk12.style.opacity = stuk12opacity;
+    
      stuk13.style.top = stuk13top + '%';
      stuk13.style.left = stuk13left + '%'; //13
-     stuk13.style.opacity = stuk13opacity;
+    
      stuk14.style.top = stuk14top + '%';
      stuk14.style.left = stuk14left + '%'; //14
-     stuk14.style.opacity = stuk14opacity;
+    */
 
 }
  
