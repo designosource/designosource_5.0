@@ -44,8 +44,8 @@
 
 		.grid-item { 
 		
-    		width: 43vw; 
-    		height: 43vw;
+    		width: 42vw; 
+    		height: 42vw;
 
 
 			//width: 300px;
@@ -57,8 +57,8 @@
 
 		.grid-item--width2 { 
     		
-    		width: 43vw; 
-    		height: 43vw;
+    		width: 42vw; 
+    		height: 42vw;
 			margin-right: 10px;
 			margin-top: 10px;
 		}
@@ -234,14 +234,14 @@ section.projecten {
 
 @media(min-width: $tablet) {
 	.projecten .grid .grid-item {
-    	width: 27vw;
-    	height: 27vw;
+    	width: 29vw;
+    	height: 29vw;
     	display: inline-block;
     }	
 
     .projecten .grid .grid-item--width2 { 
-		width: 27vw;
-    	height: 27vw;
+		width: 29vw;
+    	height: 29vw;
     	display: inline-block;
 	}
 
@@ -254,14 +254,14 @@ section.projecten {
 
 @media(min-width: $desktop) {
 	.projecten .grid .grid-item {
-    	width: 22vw;
-    	height: 22vw;
+    	width: 22.5vw;
+    	height: 22.5vw;
     	display: inline-block;
     }	
 
     .projecten .grid .grid-item--width2 { 
-		width: 22vw;
-    	height: 22vw;
+		width: 22.5vw;
+    	height: 22.5vw;
     	display: inline-block;
 	}
 
