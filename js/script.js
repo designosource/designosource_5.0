@@ -1,24 +1,24 @@
 $(document).ready(function() {
-opscherm();
-    window.addEventListener("resize", opscherm);
-    function opscherm() {
-        var scrolltop = window.scrollY;
-        var ei = $("#eitje")[0].offsetWidth;
-        var eiH = $("#eitje")[0].offsetHeight;
-        var eiHalf = eiH/2;
-        var screen = $(".landing")[0].offsetWidth;
-        var wHight = $(window).height();
-        var screenheightC = wHight/2;
-        var screenhalf;
-        var eihalf;
-            eihalf = ei/2;
-            screenhalf = screen/2;
-        var midden = screenhalf - eihalf;
-        var middenH = screenheightC - eiHalf;
-        $("#eitje").css("left",midden);
-        $("#eitje").css("top",middenH);
+// opscherm();
+//     window.addEventListener("resize", opscherm);
+//     function opscherm() {
+//         var scrolltop = window.scrollY;
+//         var ei = $("#eitje")[0].offsetWidth;
+//         var eiH = $("#eitje")[0].offsetHeight;
+//         var eiHalf = eiH/2;
+//         var screen = $(".landing")[0].offsetWidth;
+//         var wHight = $(window).height();
+//         var screenheightC = wHight/2;
+//         var screenhalf;
+//         var eihalf;
+//             eihalf = ei/2;
+//             screenhalf = screen/2;
+//         var midden = screenhalf - eihalf;
+//         var middenH = screenheightC - eiHalf;
+//         $("#eitje").css("left",midden);
+//         $("#eitje").css("top",middenH);
         parallaxcube();
-    }   
+    // }   
 });
 
 window.requestAnimationFrame = window.requestAnimationFrame
@@ -275,9 +275,9 @@ function parallaxcube(){
     }
      bg_scroll.style.top = eitjetop - middenH + "px";
      /*eitje.style.top = eitjetop + "px";*/
-     eitje.style.transform = "translateY("+ eitjetop +"px)";
-     eitje.style.msTransform = "translateY("+ eitjetop +"px)";
-     eitje.style.WebkitTransform = "translateY("+ eitjetop +"px)";
+     // eitje.style.transform = "translateY("+ eitjetop +"px)";
+     // eitje.style.msTransform = "translateY("+ eitjetop +"px)";
+     // eitje.style.WebkitTransform = "translateY("+ eitjetop +"px)";
     
      stuk1.style.transform ="translate("+ stuk1left +"%,"+ stuk1top +"%)";
      stuk1.style.msTransform ="translate("+ stuk1left +"%,"+ stuk1top +"%)";

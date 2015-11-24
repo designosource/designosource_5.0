@@ -148,10 +148,14 @@ body {
     position: relative; }
     .container .landing .container-stukken {
       position: fixed;
-      top: 0;
-      bottom: 100px;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%);
       font-size: 20px;
       color: white; }
+      .container .landing .container-stukken.static {
+        position: absolute !important;
+        transform: translateX(-100%); }
       .container .landing .container-stukken h1 {
         font-size: 2rem;
         color: white;

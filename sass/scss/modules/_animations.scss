@@ -70,9 +70,17 @@
 		background-color: transparent;
         position: relative;
         .container-stukken{
-			position:fixed;
-            top: 0;
-            bottom: 100px;
+
+            position: fixed;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%);
+
+            &.static{
+                position: absolute !important;
+                transform: translateX(-100%);
+            }
+
             font-size: 20px;
             color: white;
             h1{
