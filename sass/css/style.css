@@ -1042,13 +1042,17 @@ header {
     width: 100%;
     padding-left: 40px; }
     .projecten .grid .grid-item {
-      width: 42vw;
-      height: 42vw;
+      width: 45vw;
+      max-width: 150px;
+      max-height: 150px;
+      height: 45vw;
       margin-right: 10px;
       margin-top: 10px; }
     .projecten .grid .grid-item--width2 {
-      width: 42vw;
-      height: 42vw;
+      width: 45vw;
+      max-width: 150px;
+      max-height: 150px;
+      height: 45vw;
       margin-right: 10px;
       margin-top: 10px; }
 
@@ -1111,7 +1115,7 @@ section.projecten {
   section.projecten .grid div.effect-sadie h4 {
     word-spacing: -0.15em;
     font-weight: 300;
-    font-size: 1rem; }
+    font-size: 0.9rem; }
   section.projecten .grid div.effect-sadie h4 span {
     font-weight: 800; }
   section.projecten .grid div.effect-sadie h4,
@@ -1180,17 +1184,21 @@ section.projecten {
     width: 100%; } }
 @media (min-width: 768px) {
   .projecten .grid .grid-item {
-    width: 29vw;
-    height: 29vw;
-    display: inline-block; }
+    display: inline-block;
+    width: 30vw;
+    max-width: 220px;
+    max-height: 220px;
+    height: 30vw; }
 
   .projecten .grid .grid-item--width2 {
-    width: 29vw;
-    height: 29vw;
+    width: 30vw;
+    max-width: 220px;
+    max-height: 220px;
+    height: 30vw;
     display: inline-block; }
 
   section.projecten .grid div.effect-sadie h4 {
-    font-size: 1.2rem; } }
+    font-size: 1rem; } }
 @media (min-width: 1024px) {
   .projecten .grid .grid-item {
     width: 21vw;
