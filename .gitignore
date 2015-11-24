@@ -3,3 +3,4 @@ sass/.sass-cache
 .DS_Store
 style.css
 style.css.map
+/pdf/*
