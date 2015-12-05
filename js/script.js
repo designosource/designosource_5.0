@@ -273,8 +273,8 @@ function parallaxcube(){
         $(".bg-wrapper").css("opacity","1");
         $(".bg-wrapper").css("z-index","1");
     }
-     bg_scroll.style.top = eitjetop - middenH + "px";
-     /*eitje.style.top = eitjetop + "px";*/
+     // bg_scroll.style.top = eitjetop - middenH + "px";
+     // eitje.style.top = eitjetop + "px";
      // eitje.style.transform = "translateY("+ eitjetop +"px)";
      // eitje.style.msTransform = "translateY("+ eitjetop +"px)";
      // eitje.style.WebkitTransform = "translateY("+ eitjetop +"px)";
