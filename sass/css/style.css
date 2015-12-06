@@ -79,6 +79,21 @@ body {
 @media (min-width: 1200px) {
   body nav .navigation {
     width: 35%; } }
+.performanceEgg {
+  background-image: url("../../images/logo_ei.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 300px;
+  margin: 100px auto 0 auto; }
+
+.performanceTitle {
+  font-size: 2rem;
+  color: white;
+  font-family: AlteDIN1451Mittelschrift-Regular;
+  text-align: center;
+  margin-top: 40px; }
+
 .bg_fixed {
   position: fixed;
   width: 100%;
@@ -715,7 +730,7 @@ body {
 
 @media (min-width: 768px) {
   .container .landing {
-    height: 210vh;
+    height: 200vh;
     margin-bottom: 0; } }
 header {
   max-width: 1200px;
@@ -754,7 +769,7 @@ header {
   .first_quote p {
     color: white;
     width: 80%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: AlteDIN1451Mittelschrift-Regular;
     margin-top: 10px; }
     .first_quote p span {
@@ -1197,7 +1212,7 @@ section.projecten {
     display: inline-block; }
 
   section.projecten .grid div.effect-sadie h4 {
-    font-size: 1.2rem; } }
+    font-size: 1rem; } }
 @media (min-width: 1200px) {
   .projecten .grid .grid-item {
     width: 21vw;

@@ -1,70 +1,70 @@
 body {
-	font-size: 62.5%;
-	font-family : $font3;
-	margin: O;
+    font-size: 62.5%;
+    font-family : $font3;
+    margin: O;
 
-	nav {
-		background-color: $color1;
-		height: 50px;
-		width: 100%;
-		position:fixed;
-		top:0px;
-		color: #FFFFFF;
-		z-index:9999;
-		display: none;
+    nav {
+        background-color: $color1;
+        height: 50px;
+        width: 100%;
+        position:fixed;
+        top:0px;
+        color: #FFFFFF;
+        z-index:9999;
+        display: none;
 
-		#logo {
-			display: none;
-		}
+        #logo {
+            display: none;
+        }
 
-		.navigation {
-			width: 100%;
-			float: right;
-			margin-top: 19px;
+        .navigation {
+            width: 100%;
+            float: right;
+            margin-top: 19px;
 
-			a {
-				text-decoration: none;
-				color: white;
-				font-size: 1rem;
-				text-transform: uppercase;
-				display: block;
-				float: left;
-				width: 25%;
-				text-align: center;
-				font-family: $font2;
-				position: relative;
-				padding-bottom: 4px;
-			}	
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                text-transform: uppercase;
+                display: block;
+                float: left;
+                width: 25%;
+                text-align: center;
+                font-family: $font2;
+                position: relative;
+                padding-bottom: 4px;
+            }   
 
-			a:hover:after {
-				width: 100%;
-			}
+            a:hover:after {
+                width: 100%;
+            }
 
-			a:after {
-				content: "";
-				display: block;
-				position: absolute;
-				height: 10px;
-				border-bottom: 5px solid white;
-			}
+            a:after {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 10px;
+                border-bottom: 5px solid white;
+            }
 
-		}
-	}
+        }
+    }
 
-	h2 {
-		font-family: $font2;
-		text-transform: uppercase;
-		font-size: 1.2rem;
-		padding-left: 40px;
-	}
+    h2 {
+        font-family: $font2;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding-left: 40px;
+    }
 
-	.line {
-		width: 80px;
-		margin-left: 40px;
-		height: 5px;
-		background-color: black;
-		margin: 10px 0px 20px 40px;
-	}
+    .line {
+        width: 80px;
+        margin-left: 40px;
+        height: 5px;
+        background-color: black;
+        margin: 10px 0px 20px 40px;
+    }
 }
 
 
@@ -73,43 +73,53 @@ body {
 }
 
 @media(min-width: $tablet) {
-	body {
-		nav {
-			#logo {
-				display: block;
-				width: 30px;
-				height: 30px;
-				-webkit-background-size: 30px 30px;
-				background-size: 30px 30px;
-				background-position: center;
-				background-image: url('../../images/logo_ei.svg');
-				text-indent: -9999px;
-				padding: 10px 0px 10px 30px;
-				background-repeat: no-repeat;
-			}
+    body {
+        nav {
+            #logo {
+                display: block;
+                width: 30px;
+                height: 30px;
+                -webkit-background-size: 30px 30px;
+                background-size: 30px 30px;
+                background-position: center;
+                background-image: url('../../images/logo_ei.svg');
+                text-indent: -9999px;
+                padding: 10px 0px 10px 30px;
+                background-repeat: no-repeat;
+            }
 
-			.navigation {
-				width: 50%;
-				margin-right: 30px;
-				margin-top: -30px;
-			}
-		}
-	}
+            .navigation {
+                width: 50%;
+                margin-right: 30px;
+                margin-top: -30px;
+            }
+        }
+    }
 }
 
 @media(min-width: $desktop) {
-	body {
-		nav {
-			.navigation {
-				width: 35%;
-			}
-		}
-	}
+    body {
+        nav {
+            .navigation {
+                width: 35%;
+            }
+        }
+    }
 }
 
+.performanceEgg{
+    background-image: url('../../images/logo_ei.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 300px;
+    margin: 100px auto 0 auto;
+}
 
-
-
-
-
-
+.performanceTitle{
+    font-size: 2rem;
+    color: white;
+    font-family: $font2;
+    text-align: center;
+    margin-top: 40px;
+}
