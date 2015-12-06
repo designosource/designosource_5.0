@@ -20,7 +20,7 @@ var isMobile = {
 };
 
 if(isMobile.any()){
-    alert('mobile');
+
     // kill all the cancer
     $('#eitje').remove();
     $('.bg-wrapper').remove();
@@ -29,12 +29,14 @@ if(isMobile.any()){
 
     // structural changes to support missing cancer
     $('#landing').css('height','100vh');
-    $('#landing').css('padding-top','50px');
+    $('#landing').css('margin-bottom','0px');
     $('#bg_fixed').css('position','absolute');
 
     // add in less cancerous elements
-    $('#landing').append('<div class="performanceEgg"></div>');
-    $('#landing').append('<h1 class="performanceTitle">DESIGNOSOURCE</h1>');
+    $('#landing').append(
+        '<div class="performanceCenter">'+
+        '<div class="performanceEgg"></div>'+
+        '<h1 class="performanceTitle">DESIGNOSOURCE</h1></div>');
 
     // fade in everything in a broken way
     $("#landing").addClass("animation fadeIn1");
