@@ -404,7 +404,7 @@ function mobileAndTabletcheck(){
   return check;
 }
 
-if(mobileAndTabletcheck){
+if(mobileAndTabletcheck()){
     window.addEventListener('scroll', function(){ // on page scroll
         requestAnimationFrame(parallaxcube); // call parallaxcube() on next available screen paint
     }, false);
