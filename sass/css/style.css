@@ -76,7 +76,7 @@ body {
     width: 50%;
     margin-right: 30px;
     margin-top: -30px; } }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   body nav .navigation {
     width: 35%; } }
 .bg_fixed {
@@ -754,7 +754,7 @@ header {
   .first_quote p {
     color: white;
     width: 80%;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-family: AlteDIN1451Mittelschrift-Regular;
     margin-top: 10px; }
     .first_quote p span {
@@ -769,7 +769,10 @@ header {
 
 @media (min-width: 640px) and (max-width: 768px) {
   header {
-    padding: 60px 0px; } }
+    padding: 60px 0px; }
+
+  .first_quote p {
+    font-size: 1.9rem; } }
 @media (min-width: 768px) {
   header .left {
     float: left;
@@ -1042,17 +1045,13 @@ header {
     width: 100%;
     padding-left: 40px; }
     .projecten .grid .grid-item {
-      width: 45vw;
-      max-width: 150px;
-      max-height: 150px;
-      height: 45vw;
+      width: 35vw;
+      height: 20vh;
       margin-right: 10px;
       margin-top: 10px; }
     .projecten .grid .grid-item--width2 {
-      width: 45vw;
-      max-width: 150px;
-      max-height: 150px;
-      height: 45vw;
+      width: 35vw;
+      height: 20vh;
       margin-right: 10px;
       margin-top: 10px; }
 
@@ -1185,21 +1184,21 @@ section.projecten {
 @media (min-width: 768px) {
   .projecten .grid .grid-item {
     display: inline-block;
-    width: 30vw;
-    max-width: 220px;
-    max-height: 220px;
-    height: 30vw; }
+    width: 31vw;
+    max-width: 225px;
+    max-height: 225px;
+    height: 31vw; }
 
   .projecten .grid .grid-item--width2 {
-    width: 30vw;
-    max-width: 220px;
-    max-height: 220px;
-    height: 30vw;
+    width: 31vw;
+    max-width: 225px;
+    max-height: 225px;
+    height: 31vw;
     display: inline-block; }
 
   section.projecten .grid div.effect-sadie h4 {
-    font-size: 1rem; } }
-@media (min-width: 1024px) {
+    font-size: 1.2rem; } }
+@media (min-width: 1200px) {
   .projecten .grid .grid-item {
     width: 21vw;
     max-width: 270px;
@@ -1367,7 +1366,7 @@ section.projecten {
 @media (min-width: 768px) {
   .teamlist > li {
     width: 25%; } }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .teamlist > li {
     width: 14.28%; } }
 div#contactnav {
