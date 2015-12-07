@@ -114,6 +114,7 @@ body {
     height: 400px;
     width: 250px;
     margin: 0 auto;
+    max-height: 90vh;
 }
 
 .performanceTitle{
@@ -121,12 +122,13 @@ body {
     color: white;
     font-family: $font2;
     text-align: center;
-    margin-top: 40px;
+    max-height: 10vh;
 }
 
-// .performanceCenter{
+.performanceCenter{
+    max-height: 100vh;
 //     position: absolute;
 //     top: 50%;
 //     left: 50%;
 //     transform: translate(-50%, -60%);
-// }
+}

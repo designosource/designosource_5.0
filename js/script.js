@@ -29,6 +29,7 @@ if(isMobile.any()){
 
     // structural changes to support missing cancer
     $('#landing').css('height','100vh');
+    $('#landing').css('max-height','100vh');
     $('#landing').css('margin-bottom','0px');
     $('#bg_fixed').css('position','absolute');
 

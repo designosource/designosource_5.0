@@ -85,14 +85,18 @@ body {
   background-position: center;
   height: 400px;
   width: 250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-height: 90vh; }
 
 .performanceTitle {
   font-size: 2rem;
   color: white;
   font-family: AlteDIN1451Mittelschrift-Regular;
   text-align: center;
-  margin-top: 40px; }
+  max-height: 10vh; }
+
+.performanceCenter {
+  max-height: 100vh; }
 
 .bg_fixed {
   position: fixed;
@@ -157,7 +161,6 @@ body {
   height: auto; }
   .container .landing {
     height: 0vh;
-    min-height: 600px;
     width: 100%;
     margin-bottom: 100vh;
     background-color: transparent;
