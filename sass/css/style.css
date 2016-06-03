@@ -1770,6 +1770,7 @@ a#gotosite {
   font-family: Didot-Italic;
   color: white;
   left: 50%;
+  bottom: 0;
   font-size: 1rem;
   height: 40px;
   opacity: 0.7; }
